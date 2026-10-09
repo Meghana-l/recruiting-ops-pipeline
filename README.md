@@ -4,7 +4,7 @@ A small data pipeline that takes a messy applicant tracking system export, clean
 joins it to requisition data, checks it, and publishes a dashboard a recruiting team
 could actually use.
 
-**[Live dashboard](https://your-project.vercel.app)**
+**[Live dashboard]([https://your-project.vercel.app](https://recruiting-ops-pipeline.vercel.app/))**
 
 ---
 
