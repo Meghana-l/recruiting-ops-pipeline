@@ -1,0 +1,406 @@
+candidate_id,candidate_name,email,source,req_id,stage,recruiter,applied_at,last_activity_at,offer_amount,title,department,level,region,hiring_manager,status,comp_min,comp_max,days_in_stage,stage_sla_days,past_sla,time_to_hire_days,stage_rank
+cand_90355,Arjun Ferreira,arjun.ferreira@mailbox.com,Agency,REQ-4125,Applied,p.devi,2026-06-25,2026-09-30,,Recruiting Coordinator,Engineering,IC2,EMEA,t.moreau,Open,110000,140000,8,4,false,,0
+cand_90361,Clara Novak,clara.novak@gridmail.com,Sourced,REQ-4123,Recruiter Screen,m.strand,2026-05-29,2026-10-06,,Data Engineer,Product,IC3,APAC,s.bello,Open,120000,150000,2,5,false,,1
+cand_90276,Elif Abara,elif.abara@mailbox.com,Agency,REQ-4120,Technical Screen,l.chen,2026-07-03,2026-10-07,,Recruiting Coordinator,Security,IC5,APAC,t.moreau,Closed,120000,160000,1,7,false,,2
+cand_90350,Idris Holm,idris.holm@postbox.io,Sourced,REQ-4122,Onsite,p.devi,2026-06-16,2026-10-04,,Software Engineer,Engineering,IC2,AMER,r.aldridge,Closed,120000,150000,4,9,false,,3
+cand_90253,Kofi Ferreira,kofi.ferreira@gridmail.com,University,REQ-4122,Applied,a.okafor,2026-06-27,2026-10-05,,Software Engineer,Engineering,IC2,AMER,r.aldridge,Closed,120000,150000,3,4,false,,0
+cand_90220,Lena Vance,lena.vance@postbox.io,Careers Site,REQ-4115,Applied,a.okafor,2026-08-30,2026-10-02,,Forward Deployed Engineer,Product,IC2,APAC,t.moreau,Open,140000,190000,6,4,false,,0
+cand_90196,Lila Tan,lila.tan@mailbox.com,University,REQ-4113,Recruiter Screen,l.chen,2026-08-10,2026-10-06,,Recruiting Coordinator,Deployment Strategy,IC5,APAC,r.aldridge,Open,120000,160000,2,5,false,,1
+cand_90102,Mei Abara,mei.abara@postbox.io,LinkedIn,REQ-4116,Applied,j.rivera,2026-05-28,2026-10-02,,Recruiting Coordinator,Security,IC3,AMER,t.moreau,Open,110000,160000,6,4,false,,0
+cand_90171,Mei Ferreira,mei.ferreira@gridmail.com,Careers Site,REQ-4108,Applied,m.strand,2026-06-06,2026-09-30,,Recruiting Coordinator,Engineering,IC3,APAC,s.bello,Open,130000,170000,8,4,false,,0
+cand_90123,Mei Silva,mei.silva@mailbox.com,Referral,REQ-4104,Applied,j.rivera,2026-07-01,2026-10-02,,Software Engineer,Product,IC2,EMEA,t.moreau,Open,110000,140000,6,4,false,,0
+cand_90237,Noah Qureshi,noah.qureshi@mailbox.com,Agency,REQ-4119,Recruiter Screen,p.devi,2026-07-09,2026-10-01,,Forward Deployed Engineer,Product,IC3,EMEA,k.ivanov,Closed,120000,170000,7,5,false,,1
+cand_90063,Owen Nair,owen.nair@mailbox.com,Careers Site,REQ-4123,Applied,j.rivera,2026-06-22,2026-09-30,,Data Engineer,Product,IC3,APAC,s.bello,Open,120000,150000,8,4,false,,0
+cand_90160,Pablo Demir,pablo.demir@mailbox.com,Referral,REQ-4111,Onsite,j.rivera,2026-04-30,2026-10-07,,Forward Deployed Engineer,Security,IC3,AMER,t.moreau,Open,140000,190000,1,9,false,,3
+cand_90243,Pablo Fitzgerald,pablo.fitzgerald@mailbox.com,Agency,REQ-4103,Recruiter Screen,m.strand,2026-09-26,2026-10-01,,Recruiting Coordinator,Product,IC4,EMEA,s.bello,Closed,120000,160000,7,5,false,,1
+cand_90138,Priya Rao,priya.rao@gridmail.com,Referral,REQ-4111,Technical Screen,l.chen,2026-07-20,2026-10-02,,Forward Deployed Engineer,Security,IC3,AMER,t.moreau,Open,140000,190000,6,7,false,,2
+cand_90001,Priya Silva,priya.silva@postbox.io,Referral,REQ-4105,Onsite,l.chen,2026-08-25,2026-10-01,,Product Designer,Engineering,IC5,AMER,t.moreau,Open,140000,180000,7,9,false,,3
+cand_90198,Ravi Kim,ravi.kim@gridmail.com,Agency,REQ-4115,Recruiter Screen,m.strand,2026-09-26,2026-09-28,,Forward Deployed Engineer,Product,IC2,APAC,t.moreau,Open,140000,190000,10,5,false,,1
+cand_90363,Sana Vance,sana.vance@gridmail.com,Careers Site,REQ-4110,Recruiter Screen,p.devi,2026-09-02,2026-09-30,,Product Designer,Security,IC3,APAC,k.ivanov,Closed,120000,170000,8,5,false,,1
+cand_90008,Soren Ferreira,soren.ferreira@postbox.io,Referral,REQ-4103,Recruiter Screen,p.devi,2026-05-18,2026-10-07,,Recruiting Coordinator,Product,IC4,EMEA,s.bello,Closed,120000,160000,1,5,false,,1
+cand_90287,Soren Tan,soren.tan@gridmail.com,University,REQ-4111,Onsite,p.devi,2026-07-01,2026-10-03,,Forward Deployed Engineer,Security,IC3,AMER,t.moreau,Open,140000,190000,5,9,false,,3
+cand_90223,Vera Okonkwo,vera.okonkwo@gridmail.com,Careers Site,REQ-4120,Recruiter Screen,l.chen,2026-08-22,2026-09-09,,Recruiting Coordinator,Security,IC5,APAC,t.moreau,Closed,120000,160000,29,5,true,,1
+cand_90173,Vera Sorensen,vera.sorensen@postbox.io,Referral,REQ-4115,Applied,l.chen,2026-09-01,2026-09-30,,Forward Deployed Engineer,Product,IC2,APAC,t.moreau,Open,140000,190000,8,4,false,,0
+cand_90108,Zoe Holm,zoe.holm@gridmail.com,Careers Site,REQ-4104,Recruiter Screen,m.strand,2026-08-18,2026-09-07,,Software Engineer,Product,IC2,EMEA,t.moreau,Open,110000,140000,31,5,true,,1
+cand_90390,Zoe Nair,zoe.nair@gridmail.com,LinkedIn,REQ-4124,Technical Screen,p.devi,2026-10-02,2026-10-03,,Security Engineer,Deployment Strategy,IC2,AMER,k.ivanov,Open,140000,180000,5,7,false,,2
+cand_90075,Arjun Sorensen,arjun.sorensen@postbox.io,Agency,REQ-4120,Onsite,m.strand,2026-07-25,2026-10-05,,Recruiting Coordinator,Security,IC5,APAC,t.moreau,Closed,120000,160000,3,9,false,,3
+cand_90076,Kofi Silva,,Sourced,REQ-4120,Technical Screen,a.okafor,2026-04-21,2026-10-06,,Recruiting Coordinator,Security,IC5,APAC,t.moreau,Closed,120000,160000,2,7,false,,2
+cand_90296,Dev Delgado,dev.delgado@mailbox.com,Agency,REQ-4119,Applied,j.rivera,2026-10-06,2026-10-06,,Forward Deployed Engineer,Product,IC3,EMEA,k.ivanov,Closed,120000,170000,2,4,false,,0
+cand_90162,Elif Mensah,elif.mensah@postbox.io,Referral,REQ-4123,Applied,j.rivera,2026-05-28,2026-10-03,,Data Engineer,Product,IC3,APAC,s.bello,Open,120000,150000,5,4,false,,0
+cand_90212,Hana Kim,hana.kim@mailbox.com,Agency,REQ-4102,Applied,j.rivera,2026-07-18,2026-10-05,,Product Designer,Deployment Strategy,IC5,AMER,k.ivanov,Open,110000,140000,3,4,false,,0
+cand_90005,Hana Novak,hana.novak@postbox.io,Referral,REQ-4104,Recruiter Screen,j.rivera,2026-08-01,2026-10-03,,Software Engineer,Product,IC2,EMEA,t.moreau,Open,110000,140000,5,5,false,,1
+cand_90259,Lila Bauer,lila.bauer@gridmail.com,Agency,REQ-4123,Applied,l.chen,2026-04-21,2026-09-16,,Data Engineer,Product,IC3,APAC,s.bello,Open,120000,150000,22,4,true,,0
+cand_90429,Lila Fitzgerald,lila.fitzgerald@mailbox.com,Agency,REQ-4103,Applied,j.rivera,2026-06-26,2026-10-06,,Recruiting Coordinator,Product,IC4,EMEA,s.bello,Closed,120000,160000,2,4,false,,0
+cand_90174,Lila Vance,lila.vance@gridmail.com,Sourced,REQ-4117,Applied,a.okafor,2026-04-24,2026-10-07,,Product Designer,Security,IC5,AMER,r.aldridge,Closed,110000,150000,1,4,false,,0
+cand_90408,Marta Bauer,marta.bauer@gridmail.com,University,REQ-4108,Onsite,j.rivera,2026-06-24,2026-10-06,,Recruiting Coordinator,Engineering,IC3,APAC,s.bello,Open,130000,170000,2,9,false,,3
+cand_90269,Nils Novak,nils.novak@mailbox.com,LinkedIn,REQ-4107,Technical Screen,a.okafor,2026-09-07,2026-09-30,,Security Engineer,Security,IC5,APAC,t.moreau,Open,110000,140000,8,7,false,,2
+cand_90410,Nora Tan,nora.tan@gridmail.com,Careers Site,REQ-4123,Recruiter Screen,m.strand,2026-08-03,2026-08-24,,Data Engineer,Product,IC3,APAC,s.bello,Open,120000,150000,45,5,true,,1
+cand_90353,Owen Watanabe,owen.watanabe@mailbox.com,Careers Site,REQ-4107,Applied,p.devi,2026-06-03,2026-10-03,,Security Engineer,Security,IC5,APAC,t.moreau,Open,110000,140000,5,4,false,,0
+cand_90218,Pablo Pires,pablo.pires@gridmail.com,LinkedIn,REQ-4112,Applied,a.okafor,2026-09-30,2026-09-30,,Data Engineer,Deployment Strategy,IC3,APAC,k.ivanov,Open,140000,170000,8,4,false,,0
+cand_90270,Ravi Delgado,ravi.delgado@postbox.io,Referral,REQ-4113,Applied,j.rivera,2026-09-27,2026-10-02,,Recruiting Coordinator,Deployment Strategy,IC5,APAC,r.aldridge,Open,120000,160000,6,4,false,,0
+cand_90200,Ravi Keller,ravi.keller@postbox.io,Sourced,REQ-4108,Recruiter Screen,j.rivera,2026-07-26,2026-09-30,,Recruiting Coordinator,Engineering,IC3,APAC,s.bello,Open,130000,170000,8,5,false,,1
+cand_90400,Rosa Ferreira,rosa.ferreira@mailbox.com,Careers Site,REQ-4112,Recruiter Screen,p.devi,2026-05-13,2026-10-06,,Data Engineer,Deployment Strategy,IC3,APAC,k.ivanov,Open,140000,170000,2,5,false,,1
+cand_90007,Rosa Fitzgerald,rosa.fitzgerald@gridmail.com,University,REQ-4109,Onsite,p.devi,2026-08-05,2026-10-06,,Recruiting Coordinator,Security,IC2,AMER,r.aldridge,Open,120000,150000,2,9,false,,3
+cand_90292,Sana Haddad,sana.haddad@mailbox.com,Careers Site,REQ-4104,Applied,p.devi,2026-09-03,2026-10-06,,Software Engineer,Product,IC2,EMEA,t.moreau,Open,110000,140000,2,4,false,,0
+cand_90164,Soren Asante,soren.asante@gridmail.com,Careers Site,REQ-4118,Onsite,m.strand,2026-04-28,2026-10-01,,Software Engineer,Deployment Strategy,IC2,AMER,k.ivanov,Closed,120000,170000,7,9,false,,3
+cand_90136,Soren Fitzgerald,soren.fitzgerald@mailbox.com,Careers Site,REQ-4122,Recruiter Screen,l.chen,2026-06-26,2026-10-02,,Software Engineer,Engineering,IC2,AMER,r.aldridge,Closed,120000,150000,6,5,false,,1
+cand_90037,Soren Novak,soren.novak@gridmail.com,LinkedIn,REQ-4100,Technical Screen,l.chen,2026-07-10,2026-10-03,,Software Engineer,Security,IC3,AMER,s.bello,Open,110000,160000,5,7,false,,2
+cand_90342,Tobias Holm,tobias.holm@postbox.io,LinkedIn,REQ-4119,Recruiter Screen,m.strand,2026-05-01,2026-10-07,,Forward Deployed Engineer,Product,IC3,EMEA,k.ivanov,Closed,120000,170000,1,5,false,,1
+cand_90207,Amara Pires,amara.pires@gridmail.com,Agency,REQ-4125,Technical Screen,m.strand,2026-05-22,2026-09-28,,Recruiting Coordinator,Engineering,IC2,EMEA,t.moreau,Open,110000,140000,10,7,false,,2
+cand_90018,Amara Pires,amara.pires@postbox.io,Careers Site,REQ-4121,Offer,j.rivera,2026-05-22,2026-10-05,130000,Forward Deployed Engineer,Deployment Strategy,IC2,EMEA,r.aldridge,Open,110000,160000,3,5,false,,4
+cand_90231,Amara Sorensen,amara.sorensen@gridmail.com,LinkedIn,REQ-4111,Applied,j.rivera,2026-06-22,2026-09-24,,Forward Deployed Engineer,Security,IC3,AMER,t.moreau,Open,140000,190000,14,4,true,,0
+cand_90409,Clara Novak,,Referral,REQ-4125,Applied,p.devi,2026-07-28,2026-09-04,,Recruiting Coordinator,Engineering,IC2,EMEA,t.moreau,Open,110000,140000,34,4,true,,0
+cand_90071,Hana Kim,hana.kim@gridmail.com,Agency,REQ-4115,Onsite,p.devi,2026-08-24,2026-10-02,,Forward Deployed Engineer,Product,IC2,APAC,t.moreau,Open,140000,190000,6,9,false,,3
+cand_90094,Ife Mensah,ife.mensah@postbox.io,Sourced,REQ-4104,Applied,l.chen,2026-09-12,2026-10-03,,Software Engineer,Product,IC2,EMEA,t.moreau,Open,110000,140000,5,4,false,,0
+cand_90428,Ken Tan,ken.tan@mailbox.com,Careers Site,REQ-4113,Applied,m.strand,2026-07-30,2026-10-03,,Recruiting Coordinator,Deployment Strategy,IC5,APAC,r.aldridge,Open,120000,160000,5,4,false,,0
+cand_90411,Kofi Holm,kofi.holm@mailbox.com,LinkedIn,REQ-4125,Technical Screen,j.rivera,2026-06-14,2026-10-06,,Recruiting Coordinator,Engineering,IC2,EMEA,t.moreau,Open,110000,140000,2,7,false,,2
+cand_90116,Kofi Qureshi,kofi.qureshi@postbox.io,Referral,REQ-4118,Applied,m.strand,2026-04-21,2026-08-22,,Software Engineer,Deployment Strategy,IC2,AMER,k.ivanov,Closed,120000,170000,47,4,true,,0
+cand_90045,Lena Asante,lena.asante@postbox.io,Referral,REQ-4111,Recruiter Screen,m.strand,2026-05-25,2026-10-07,,Forward Deployed Engineer,Security,IC3,AMER,t.moreau,Open,140000,190000,1,5,false,,1
+cand_90247,Lena Ferreira,lena.ferreira@gridmail.com,Referral,REQ-4115,Applied,m.strand,2026-09-03,2026-10-03,,Forward Deployed Engineer,Product,IC2,APAC,t.moreau,Open,140000,190000,5,4,false,,0
+cand_90359,Noah Okonkwo,noah.okonkwo@postbox.io,Sourced,REQ-4124,Applied,l.chen,2026-06-28,2026-10-05,,Security Engineer,Deployment Strategy,IC2,AMER,k.ivanov,Open,140000,180000,3,4,false,,0
+cand_90156,Owen Watanabe,owen.watanabe@postbox.io,Referral,REQ-4114,Onsite,l.chen,2026-05-12,2026-10-05,,Product Designer,Engineering,IC2,APAC,t.moreau,Open,130000,170000,3,9,false,,3
+cand_90236,Pablo Watanabe,pablo.watanabe@postbox.io,Sourced,REQ-4120,Applied,j.rivera,2026-08-17,2026-10-04,,Recruiting Coordinator,Security,IC5,APAC,t.moreau,Closed,120000,160000,4,4,false,,0
+cand_90048,Priya Novak,priya.novak@mailbox.com,LinkedIn,REQ-4117,Recruiter Screen,l.chen,2026-09-23,2026-10-04,,Product Designer,Security,IC5,AMER,r.aldridge,Closed,110000,150000,4,5,false,,1
+cand_90197,Rosa Qureshi,rosa.qureshi@postbox.io,University,REQ-4117,Applied,m.strand,2026-08-15,2026-10-07,,Product Designer,Security,IC5,AMER,r.aldridge,Closed,110000,150000,1,4,false,,0
+cand_90233,Soren Bauer,soren.bauer@mailbox.com,Sourced,REQ-4105,Applied,p.devi,2026-07-11,2026-10-06,,Product Designer,Engineering,IC5,AMER,t.moreau,Open,140000,180000,2,4,false,,0
+cand_90015,Soren Keller,soren.keller@mailbox.com,Careers Site,REQ-4111,Applied,p.devi,2026-04-21,2026-10-03,,Forward Deployed Engineer,Security,IC3,AMER,t.moreau,Open,140000,190000,5,4,false,,0
+cand_90367,Theo Bauer,theo.bauer@postbox.io,Careers Site,REQ-4119,Technical Screen,p.devi,2026-08-15,2026-10-08,,Forward Deployed Engineer,Product,IC3,EMEA,k.ivanov,Closed,120000,170000,0,7,false,,2
+cand_90395,Theo Ferreira,theo.ferreira@postbox.io,Sourced,REQ-4117,Applied,p.devi,2026-05-26,2026-10-04,,Product Designer,Security,IC5,AMER,r.aldridge,Closed,110000,150000,4,4,false,,0
+cand_90425,Tobias Novak,tobias.novak@postbox.io,Careers Site,REQ-4124,Onsite,p.devi,2026-06-03,2026-09-30,,Security Engineer,Deployment Strategy,IC2,AMER,k.ivanov,Open,140000,180000,8,9,false,,3
+cand_90266,Vera Delgado,vera.delgado@gridmail.com,Agency,REQ-4105,Technical Screen,j.rivera,2026-08-26,2026-10-03,,Product Designer,Engineering,IC5,AMER,t.moreau,Open,140000,180000,5,7,false,,2
+cand_90202,Yusuf Asante,yusuf.asante@mailbox.com,Careers Site,REQ-4110,Applied,m.strand,2026-08-01,2026-10-02,,Product Designer,Security,IC3,APAC,k.ivanov,Closed,120000,170000,6,4,false,,0
+cand_90345,Zoe Keller,zoe.keller@mailbox.com,LinkedIn,REQ-4109,Recruiter Screen,j.rivera,2026-07-23,2026-10-08,,Recruiting Coordinator,Security,IC2,AMER,r.aldridge,Open,120000,150000,0,5,false,,1
+cand_90333,Zoe Watanabe,zoe.watanabe@mailbox.com,Referral,REQ-4124,Applied,m.strand,2026-09-22,2026-10-04,,Security Engineer,Deployment Strategy,IC2,AMER,k.ivanov,Open,140000,180000,4,4,false,,0
+cand_90311,Arjun Nair,arjun.nair@gridmail.com,Careers Site,REQ-4100,Applied,p.devi,2026-05-17,2026-10-03,,Software Engineer,Security,IC3,AMER,s.bello,Open,110000,160000,5,4,false,,0
+cand_90100,Priya Asante,,Referral,REQ-4123,Recruiter Screen,j.rivera,2026-07-02,2026-10-03,,Data Engineer,Product,IC3,APAC,s.bello,Open,120000,150000,5,5,false,,1
+cand_90152,Clara Haddad,clara.haddad@gridmail.com,Careers Site,REQ-4115,Recruiter Screen,m.strand,2026-06-01,2026-08-26,,Forward Deployed Engineer,Product,IC2,APAC,t.moreau,Open,140000,190000,43,5,true,,1
+cand_90308,Clara Silva,clara.silva@postbox.io,Agency,REQ-4118,Recruiter Screen,m.strand,2026-05-18,2026-10-02,,Software Engineer,Deployment Strategy,IC2,AMER,k.ivanov,Closed,120000,170000,6,5,false,,1
+cand_90330,Dev Abara,dev.abara@mailbox.com,University,REQ-4101,Technical Screen,p.devi,2026-07-14,2026-10-04,,Product Designer,Product,IC2,AMER,r.aldridge,Open,110000,160000,4,7,false,,2
+cand_90009,Dev Haddad,dev.haddad@postbox.io,Agency,REQ-4101,Applied,a.okafor,2026-07-11,2026-10-04,,Product Designer,Product,IC2,AMER,r.aldridge,Open,110000,160000,4,4,false,,0
+cand_90419,Hana Demir,hana.demir@postbox.io,Careers Site,REQ-4114,Technical Screen,p.devi,2026-07-02,2026-10-05,,Product Designer,Engineering,IC2,APAC,t.moreau,Open,130000,170000,3,7,false,,2
+cand_90420,Idris Holm,idris.holm@gridmail.com,Sourced,REQ-4125,Applied,j.rivera,2026-07-01,2026-10-05,,Recruiting Coordinator,Engineering,IC2,EMEA,t.moreau,Open,110000,140000,3,4,false,,0
+cand_90203,Ife Keller,ife.keller@postbox.io,Careers Site,REQ-4120,Recruiter Screen,l.chen,2026-04-22,2026-09-08,,Recruiting Coordinator,Security,IC5,APAC,t.moreau,Closed,120000,160000,30,5,true,,1
+cand_90175,Ken Abara,ken.abara@postbox.io,University,REQ-4123,Onsite,j.rivera,2026-08-22,2026-09-27,,Data Engineer,Product,IC3,APAC,s.bello,Open,120000,150000,11,9,false,,3
+cand_90225,Ken Kim,ken.kim@mailbox.com,Sourced,REQ-4125,Technical Screen,j.rivera,2026-09-30,2026-09-30,,Recruiting Coordinator,Engineering,IC2,EMEA,t.moreau,Open,110000,140000,8,7,false,,2
+cand_90205,Kofi Brandt,kofi.brandt@gridmail.com,LinkedIn,REQ-4100,Technical Screen,m.strand,2026-06-23,2026-10-05,,Software Engineer,Security,IC3,AMER,s.bello,Open,110000,160000,3,7,false,,2
+cand_90096,Kofi Holm,kofi.holm@postbox.io,LinkedIn,REQ-4111,Applied,a.okafor,2026-06-20,2026-08-14,,Forward Deployed Engineer,Security,IC3,AMER,t.moreau,Open,140000,190000,55,4,true,,0
+cand_90044,Lena Vance,lena.vance@gridmail.com,LinkedIn,REQ-4106,Applied,m.strand,2026-09-06,2026-10-03,,Recruiting Coordinator,Engineering,IC2,APAC,s.bello,Closed,120000,150000,5,4,false,,0
+cand_90282,Nils Adeyemi,nils.adeyemi@gridmail.com,Careers Site,REQ-4120,Applied,a.okafor,2026-08-11,2026-10-02,,Recruiting Coordinator,Security,IC5,APAC,t.moreau,Closed,120000,160000,6,4,false,,0
+cand_90245,Noah Ferreira,noah.ferreira@mailbox.com,Referral,REQ-4111,Recruiter Screen,p.devi,2026-05-02,2026-10-05,,Forward Deployed Engineer,Security,IC3,AMER,t.moreau,Open,140000,190000,3,5,false,,1
+cand_90331,Noah Nair,noah.nair@postbox.io,Agency,REQ-4101,Recruiter Screen,m.strand,2026-08-18,2026-10-02,,Product Designer,Product,IC2,AMER,r.aldridge,Open,110000,160000,6,5,false,,1
+cand_90211,Owen Holm,owen.holm@mailbox.com,Careers Site,REQ-4121,Onsite,j.rivera,2026-09-26,2026-10-01,,Forward Deployed Engineer,Deployment Strategy,IC2,EMEA,r.aldridge,Open,110000,160000,7,9,false,,3
+cand_90002,Ravi Demir,ravi.demir@gridmail.com,Sourced,REQ-4104,Offer,m.strand,2026-06-12,2026-09-30,130000,Software Engineer,Product,IC2,EMEA,t.moreau,Open,110000,140000,8,5,false,,4
+cand_90346,Sana Abara,sana.abara@mailbox.com,LinkedIn,REQ-4110,Technical Screen,j.rivera,2026-09-12,2026-09-28,,Product Designer,Security,IC3,APAC,k.ivanov,Closed,120000,170000,10,7,false,,2
+cand_90098,Soren Abara,soren.abara@gridmail.com,LinkedIn,REQ-4100,Onsite,m.strand,2026-04-30,2026-09-30,,Software Engineer,Security,IC3,AMER,s.bello,Open,110000,160000,8,9,false,,3
+cand_90105,Theo Abara,theo.abara@gridmail.com,University,REQ-4122,Applied,l.chen,2026-09-17,2026-09-20,,Software Engineer,Engineering,IC2,AMER,r.aldridge,Closed,120000,150000,18,4,true,,0
+cand_90187,Vera Nair,vera.nair@mailbox.com,University,REQ-4113,Recruiter Screen,m.strand,2026-09-21,2026-09-28,,Recruiting Coordinator,Deployment Strategy,IC5,APAC,r.aldridge,Open,120000,160000,10,5,false,,1
+cand_90423,Yusuf Asante,yusuf.asante@gridmail.com,Referral,REQ-4104,Applied,a.okafor,2026-07-31,2026-10-05,,Software Engineer,Product,IC2,EMEA,t.moreau,Open,110000,140000,3,4,false,,0
+cand_90204,Arjun Fitzgerald,arjun.fitzgerald@mailbox.com,Sourced,REQ-4101,Applied,a.okafor,2026-05-20,2026-09-30,,Product Designer,Product,IC2,AMER,r.aldridge,Open,110000,160000,8,4,false,,0
+cand_90284,Theo Watanabe,,University,REQ-4121,Offer,l.chen,2026-06-18,2026-10-02,140000,Forward Deployed Engineer,Deployment Strategy,IC2,EMEA,r.aldridge,Open,110000,160000,6,5,false,,4
+cand_90201,Idris Mensah,idris.mensah@postbox.io,Referral,REQ-4113,Applied,a.okafor,2026-06-08,2026-10-03,,Recruiting Coordinator,Deployment Strategy,IC5,APAC,r.aldridge,Open,120000,160000,5,4,false,,0
+cand_90031,Ife Mensah,ife.mensah@gridmail.com,Agency,REQ-4102,Offer,l.chen,2026-04-30,2026-10-02,160000,Product Designer,Deployment Strategy,IC5,AMER,k.ivanov,Open,110000,140000,6,5,false,,4
+cand_90184,Ife Tan,ife.tan@postbox.io,Referral,REQ-4114,Offer,a.okafor,2026-08-16,2026-10-06,160000,Product Designer,Engineering,IC2,APAC,t.moreau,Open,130000,170000,2,5,false,,4
+cand_90118,Kofi Bauer,kofi.bauer@postbox.io,Agency,REQ-4111,Onsite,j.rivera,2026-05-25,2026-10-02,,Forward Deployed Engineer,Security,IC3,AMER,t.moreau,Open,140000,190000,6,9,false,,3
+cand_90352,Kofi Ferreira,kofi.ferreira@mailbox.com,LinkedIn,REQ-4116,Applied,l.chen,2026-05-17,2026-08-21,,Recruiting Coordinator,Security,IC3,AMER,t.moreau,Open,110000,160000,48,4,true,,0
+cand_90072,Mei Ferreira,mei.ferreira@gridmail.com,Careers Site,REQ-4105,Applied,a.okafor,2026-08-02,2026-10-01,,Product Designer,Engineering,IC5,AMER,t.moreau,Open,140000,180000,7,4,false,,0
+cand_90235,Mei Novak,mei.novak@gridmail.com,Careers Site,REQ-4118,Recruiter Screen,a.okafor,2026-10-05,2026-10-07,,Software Engineer,Deployment Strategy,IC2,AMER,k.ivanov,Closed,120000,170000,1,5,false,,1
+cand_90040,Mei Novak,mei.novak@mailbox.com,Careers Site,REQ-4106,Recruiter Screen,j.rivera,2026-07-01,2026-10-01,,Recruiting Coordinator,Engineering,IC2,APAC,s.bello,Closed,120000,150000,7,5,false,,1
+cand_90403,Noah Novak,noah.novak@mailbox.com,LinkedIn,REQ-4104,Applied,p.devi,2026-07-02,2026-10-07,,Software Engineer,Product,IC2,EMEA,t.moreau,Open,110000,140000,1,4,false,,0
+cand_90222,Noah Qureshi,noah.qureshi@gridmail.com,Sourced,REQ-4109,Onsite,j.rivera,2026-07-14,2026-10-02,,Recruiting Coordinator,Security,IC2,AMER,r.aldridge,Open,120000,150000,6,9,false,,3
+cand_90126,Nora Keller,nora.keller@mailbox.com,Careers Site,REQ-4120,Applied,j.rivera,2026-09-16,2026-10-08,,Recruiting Coordinator,Security,IC5,APAC,t.moreau,Closed,120000,160000,0,4,false,,0
+cand_90088,Owen Adeyemi,owen.adeyemi@postbox.io,Agency,REQ-4105,Applied,j.rivera,2026-07-07,2026-10-05,,Product Designer,Engineering,IC5,AMER,t.moreau,Open,140000,180000,3,4,false,,0
+cand_90295,Pablo Bauer,pablo.bauer@gridmail.com,Sourced,REQ-4112,Onsite,j.rivera,2026-05-02,2026-10-05,,Data Engineer,Deployment Strategy,IC3,APAC,k.ivanov,Open,140000,170000,3,9,false,,3
+cand_90246,Pablo Watanabe,pablo.watanabe@gridmail.com,Agency,REQ-4104,Applied,l.chen,2026-07-24,2026-10-04,,Software Engineer,Product,IC2,EMEA,t.moreau,Open,110000,140000,4,4,false,,0
+cand_90058,Priya Rao,priya.rao@mailbox.com,Agency,REQ-4113,Applied,a.okafor,2026-09-07,2026-09-17,,Recruiting Coordinator,Deployment Strategy,IC5,APAC,r.aldridge,Open,120000,160000,21,4,true,,0
+cand_90314,Rosa Haddad,rosa.haddad@mailbox.com,Sourced,REQ-4123,Recruiter Screen,l.chen,2026-06-26,2026-10-03,,Data Engineer,Product,IC3,APAC,s.bello,Open,120000,150000,5,5,false,,1
+cand_90130,Vera Delgado,vera.delgado@postbox.io,Agency,REQ-4121,Applied,a.okafor,2026-10-06,2026-10-08,,Forward Deployed Engineer,Deployment Strategy,IC2,EMEA,r.aldridge,Open,110000,160000,0,4,false,,0
+cand_90060,Vera Sorensen,vera.sorensen@mailbox.com,Sourced,REQ-4117,Applied,a.okafor,2026-04-28,2026-10-05,,Product Designer,Security,IC5,AMER,r.aldridge,Closed,110000,150000,3,4,false,,0
+cand_90046,Vera Tan,vera.tan@gridmail.com,Careers Site,REQ-4120,Applied,l.chen,2026-09-25,2026-09-25,,Recruiting Coordinator,Security,IC5,APAC,t.moreau,Closed,120000,160000,13,4,true,,0
+cand_90155,Yusuf Mensah,yusuf.mensah@postbox.io,LinkedIn,REQ-4119,Applied,l.chen,2026-06-13,2026-10-07,,Forward Deployed Engineer,Product,IC3,EMEA,k.ivanov,Closed,120000,170000,1,4,false,,0
+cand_90340,Zoe Adeyemi,zoe.adeyemi@gridmail.com,LinkedIn,REQ-4115,Applied,m.strand,2026-09-07,2026-10-02,,Forward Deployed Engineer,Product,IC2,APAC,t.moreau,Open,140000,190000,6,4,false,,0
+cand_90047,Amara Novak,amara.novak@postbox.io,LinkedIn,REQ-4103,Applied,a.okafor,2026-06-06,2026-10-06,,Recruiting Coordinator,Product,IC4,EMEA,s.bello,Closed,120000,160000,2,4,false,,0
+cand_90029,Amara Silva,amara.silva@postbox.io,Careers Site,REQ-4117,Recruiter Screen,p.devi,2026-06-06,2026-10-03,,Product Designer,Security,IC5,AMER,r.aldridge,Closed,110000,150000,5,5,false,,1
+cand_90257,Arjun Okonkwo,arjun.okonkwo@mailbox.com,Referral,REQ-4104,Recruiter Screen,a.okafor,2026-08-29,2026-09-01,,Software Engineer,Product,IC2,EMEA,t.moreau,Open,110000,140000,37,5,true,,1
+cand_90221,Yusuf Asante,,LinkedIn,REQ-4100,Recruiter Screen,l.chen,2026-05-07,2026-10-01,,Software Engineer,Security,IC3,AMER,s.bello,Open,110000,160000,7,5,false,,1
+cand_90241,Clara Kim,clara.kim@mailbox.com,Agency,REQ-4109,Recruiter Screen,a.okafor,2026-06-15,2026-10-07,,Recruiting Coordinator,Security,IC2,AMER,r.aldridge,Open,120000,150000,1,5,false,,1
+cand_90273,Dev Asante,dev.asante@gridmail.com,Referral,REQ-4124,Recruiter Screen,m.strand,2026-06-10,2026-10-01,,Security Engineer,Deployment Strategy,IC2,AMER,k.ivanov,Open,140000,180000,7,5,false,,1
+cand_90392,Dev Delgado,dev.delgado@mailbox.com,Agency,REQ-4125,Recruiter Screen,p.devi,2026-05-29,2026-10-03,,Recruiting Coordinator,Engineering,IC2,EMEA,t.moreau,Open,110000,140000,5,5,false,,1
+cand_90275,Elif Keller,elif.keller@postbox.io,Sourced,REQ-4101,Applied,m.strand,2026-09-21,2026-09-27,,Product Designer,Product,IC2,AMER,r.aldridge,Open,110000,160000,11,4,true,,0
+cand_90165,Hana Sorensen,hana.sorensen@gridmail.com,Referral,REQ-4101,Applied,p.devi,2026-04-28,2026-10-02,,Product Designer,Product,IC2,AMER,r.aldridge,Open,110000,160000,6,4,false,,0
+cand_90146,Idris Adeyemi,idris.adeyemi@gridmail.com,Referral,REQ-4102,Applied,j.rivera,2026-05-13,2026-09-30,,Product Designer,Deployment Strategy,IC5,AMER,k.ivanov,Open,110000,140000,8,4,false,,0
+cand_90255,Idris Nair,idris.nair@postbox.io,LinkedIn,REQ-4109,Applied,m.strand,2026-09-14,2026-10-07,,Recruiting Coordinator,Security,IC2,AMER,r.aldridge,Open,120000,150000,1,4,false,,0
+cand_90135,Ife Tan,ife.tan@postbox.io,Careers Site,REQ-4120,Recruiter Screen,j.rivera,2026-09-27,2026-10-05,,Recruiting Coordinator,Security,IC5,APAC,t.moreau,Closed,120000,160000,3,5,false,,1
+cand_90290,Ife Watanabe,ife.watanabe@mailbox.com,Agency,REQ-4118,Applied,p.devi,2026-05-08,2026-10-03,,Software Engineer,Deployment Strategy,IC2,AMER,k.ivanov,Closed,120000,170000,5,4,false,,0
+cand_90418,Ken Abara,ken.abara@mailbox.com,Careers Site,REQ-4108,Recruiter Screen,p.devi,2026-05-16,2026-10-04,,Recruiting Coordinator,Engineering,IC3,APAC,s.bello,Open,130000,170000,4,5,false,,1
+cand_90320,Ken Sorensen,ken.sorensen@gridmail.com,Sourced,REQ-4109,Recruiter Screen,a.okafor,2026-07-09,2026-10-04,,Recruiting Coordinator,Security,IC2,AMER,r.aldridge,Open,120000,150000,4,5,false,,1
+cand_90362,Kofi Haddad,kofi.haddad@gridmail.com,University,REQ-4124,Recruiter Screen,m.strand,2026-07-16,2026-10-02,,Security Engineer,Deployment Strategy,IC2,AMER,k.ivanov,Open,140000,180000,6,5,false,,1
+cand_90416,Lena Silva,lena.silva@mailbox.com,Agency,REQ-4102,Applied,p.devi,2026-06-27,2026-10-05,,Product Designer,Deployment Strategy,IC5,AMER,k.ivanov,Open,110000,140000,3,4,false,,0
+cand_90035,Lena Silva,lena.silva@postbox.io,Referral,REQ-4118,Applied,a.okafor,2026-05-04,2026-10-07,,Software Engineer,Deployment Strategy,IC2,AMER,k.ivanov,Closed,120000,170000,1,4,false,,0
+cand_90097,Marta Delgado,marta.delgado@postbox.io,Agency,REQ-4124,Technical Screen,j.rivera,2026-08-10,2026-10-03,,Security Engineer,Deployment Strategy,IC2,AMER,k.ivanov,Open,140000,180000,5,7,false,,2
+cand_90291,Marta Sorensen,marta.sorensen@mailbox.com,LinkedIn,REQ-4100,Recruiter Screen,p.devi,2026-08-23,2026-10-07,,Software Engineer,Security,IC3,AMER,s.bello,Open,110000,160000,1,5,false,,1
+cand_dup_7527,Noah Brandt,noah.brandt@mailbox.com,Sourced,REQ-4115,Technical Screen,l.chen,2026-04-21,2026-10-01,,Forward Deployed Engineer,Product,IC2,APAC,t.moreau,Open,140000,190000,7,7,false,,2
+cand_90139,Owen Fitzgerald,owen.fitzgerald@gridmail.com,LinkedIn,REQ-4111,Recruiter Screen,p.devi,2026-06-17,2026-10-08,,Forward Deployed Engineer,Security,IC3,AMER,t.moreau,Open,140000,190000,0,5,false,,1
+cand_90224,Soren Keller,soren.keller@mailbox.com,Careers Site,REQ-4106,Applied,p.devi,2026-07-27,2026-10-02,,Recruiting Coordinator,Engineering,IC2,APAC,s.bello,Closed,120000,150000,6,4,false,,0
+cand_90244,Theo Mensah,theo.mensah@mailbox.com,Referral,REQ-4118,Applied,j.rivera,2026-09-14,2026-10-07,,Software Engineer,Deployment Strategy,IC2,AMER,k.ivanov,Closed,120000,170000,1,4,false,,0
+cand_90280,Vera Haddad,vera.haddad@postbox.io,Careers Site,REQ-4101,Applied,j.rivera,2026-07-15,2026-10-05,,Product Designer,Product,IC2,AMER,r.aldridge,Open,110000,160000,3,4,false,,0
+cand_90388,Yusuf Bauer,yusuf.bauer@gridmail.com,Referral,REQ-4110,Technical Screen,l.chen,2026-06-17,2026-10-03,,Product Designer,Security,IC3,APAC,k.ivanov,Closed,120000,170000,5,7,false,,2
+cand_90052,Yusuf Demir,yusuf.demir@mailbox.com,University,REQ-4107,Technical Screen,m.strand,2026-04-29,2026-10-05,,Security Engineer,Security,IC5,APAC,t.moreau,Open,110000,140000,3,7,false,,2
+cand_90055,Yusuf Kim,yusuf.kim@postbox.io,Sourced,REQ-4101,Onsite,m.strand,2026-05-12,2026-10-08,,Product Designer,Product,IC2,AMER,r.aldridge,Open,110000,160000,0,9,false,,3
+cand_90087,Yusuf Rao,yusuf.rao@gridmail.com,Referral,REQ-4125,Technical Screen,m.strand,2026-05-07,2026-10-06,,Recruiting Coordinator,Engineering,IC2,EMEA,t.moreau,Open,110000,140000,2,7,false,,2
+cand_90396,Zoe Qureshi,zoe.qureshi@postbox.io,Agency,REQ-4107,Applied,p.devi,2026-04-22,2026-09-25,,Security Engineer,Security,IC5,APAC,t.moreau,Open,110000,140000,13,4,true,,0
+cand_90117,Dev Ferreira,dev.ferreira@gridmail.com,Careers Site,REQ-4120,Technical Screen,j.rivera,2026-06-28,2026-10-07,,Recruiting Coordinator,Security,IC5,APAC,t.moreau,Closed,120000,160000,1,7,false,,2
+cand_90003,Hana Asante,hana.asante@gridmail.com,Agency,REQ-4101,Recruiter Screen,p.devi,2026-07-18,2026-10-01,,Product Designer,Product,IC2,AMER,r.aldridge,Open,110000,160000,7,5,false,,1
+cand_90351,Hana Asante,hana.asante@gridmail.com,University,REQ-4107,Recruiter Screen,l.chen,2026-07-12,2026-10-07,,Security Engineer,Security,IC5,APAC,t.moreau,Open,110000,140000,1,5,false,,1
+cand_90157,Idris Adeyemi,idris.adeyemi@gridmail.com,Referral,REQ-4101,Applied,a.okafor,2026-06-28,2026-10-05,,Product Designer,Product,IC2,AMER,r.aldridge,Open,110000,160000,3,4,false,,0
+cand_90404,Idris Haddad,idris.haddad@postbox.io,LinkedIn,REQ-4119,Recruiter Screen,p.devi,2026-05-23,2026-10-07,,Forward Deployed Engineer,Product,IC3,EMEA,k.ivanov,Closed,120000,170000,1,5,false,,1
+cand_90394,Idris Keller,idris.keller@postbox.io,Agency,REQ-4115,Applied,l.chen,2026-07-04,2026-10-05,,Forward Deployed Engineer,Product,IC2,APAC,t.moreau,Open,140000,190000,3,4,false,,0
+cand_dup_2621,Lena Mensah,lena.mensah@mailbox.com,University,REQ-4118,Recruiter Screen,l.chen,2026-07-07,2026-10-02,,Software Engineer,Deployment Strategy,IC2,AMER,k.ivanov,Closed,120000,170000,6,5,false,,1
+cand_90109,Lena Okonkwo,lena.okonkwo@gridmail.com,Referral,REQ-4114,Applied,p.devi,2026-08-28,2026-10-07,,Product Designer,Engineering,IC2,APAC,t.moreau,Open,130000,170000,1,4,false,,0
+cand_90151,Noah Rao,noah.rao@mailbox.com,LinkedIn,REQ-4120,Onsite,m.strand,2026-05-15,2026-10-08,,Recruiting Coordinator,Security,IC5,APAC,t.moreau,Closed,120000,160000,0,9,false,,3
+cand_90122,Noah Vance,noah.vance@postbox.io,Careers Site,REQ-4111,Technical Screen,p.devi,2026-06-14,2026-10-05,,Forward Deployed Engineer,Security,IC3,AMER,t.moreau,Open,140000,190000,3,7,false,,2
+cand_90376,Pablo Asante,pablo.asante@gridmail.com,Agency,REQ-4115,Applied,a.okafor,2026-05-27,2026-10-03,,Forward Deployed Engineer,Product,IC2,APAC,t.moreau,Open,140000,190000,5,4,false,,0
+cand_90348,Ravi Bauer,ravi.bauer@mailbox.com,LinkedIn,REQ-4105,Onsite,a.okafor,2026-06-21,2026-10-06,,Product Designer,Engineering,IC5,AMER,t.moreau,Open,140000,180000,2,9,false,,3
+cand_90379,Rosa Adeyemi,rosa.adeyemi@mailbox.com,LinkedIn,REQ-4117,Recruiter Screen,a.okafor,2026-07-14,2026-10-07,,Product Designer,Security,IC5,AMER,r.aldridge,Closed,110000,150000,1,5,false,,1
+cand_90012,Tobias Brandt,tobias.brandt@gridmail.com,Careers Site,REQ-4119,Onsite,m.strand,2026-08-14,2026-10-07,,Forward Deployed Engineer,Product,IC3,EMEA,k.ivanov,Closed,120000,170000,1,9,false,,3
+cand_90147,Vera Asante,vera.asante@postbox.io,Referral,REQ-4102,Recruiter Screen,l.chen,2026-06-23,2026-10-07,,Product Designer,Deployment Strategy,IC5,AMER,k.ivanov,Open,110000,140000,1,5,false,,1
+cand_90069,Yusuf Ferreira,yusuf.ferreira@mailbox.com,University,REQ-4122,Technical Screen,a.okafor,2026-07-25,2026-09-24,,Software Engineer,Engineering,IC2,AMER,r.aldridge,Closed,120000,150000,14,7,false,,2
+cand_90374,Yusuf Okonkwo,yusuf.okonkwo@gridmail.com,Agency,REQ-4117,Technical Screen,a.okafor,2026-07-14,2026-10-05,,Product Designer,Security,IC5,AMER,r.aldridge,Closed,110000,150000,3,7,false,,2
+cand_90169,Dev Silva,dev.silva@postbox.io,Careers Site,REQ-4117,Applied,j.rivera,2026-08-14,2026-10-01,,Product Designer,Security,IC5,AMER,r.aldridge,Closed,110000,150000,7,4,false,,0
+cand_90337,Elif Haddad,elif.haddad@postbox.io,Careers Site,REQ-4124,Recruiter Screen,m.strand,2026-06-17,2026-09-21,,Security Engineer,Deployment Strategy,IC2,AMER,k.ivanov,Open,140000,180000,17,5,true,,1
+cand_90249,Idris Rao,idris.rao@gridmail.com,Sourced,REQ-4111,Recruiter Screen,a.okafor,2026-09-13,2026-10-01,,Forward Deployed Engineer,Security,IC3,AMER,t.moreau,Open,140000,190000,7,5,false,,1
+cand_90274,Jonas Abara,jonas.abara@mailbox.com,Careers Site,REQ-4112,Applied,j.rivera,2026-05-21,2026-10-08,,Data Engineer,Deployment Strategy,IC3,APAC,k.ivanov,Open,140000,170000,0,4,false,,0
+cand_90338,Jonas Qureshi,jonas.qureshi@gridmail.com,Referral,REQ-4118,Applied,p.devi,2026-08-10,2026-10-06,,Software Engineer,Deployment Strategy,IC2,AMER,k.ivanov,Closed,120000,170000,2,4,false,,0
+cand_90065,Jonas Rao,jonas.rao@mailbox.com,University,REQ-4123,Onsite,l.chen,2026-08-06,2026-10-05,,Data Engineer,Product,IC3,APAC,s.bello,Open,120000,150000,3,9,false,,3
+cand_90032,Ken Brandt,ken.brandt@postbox.io,Careers Site,REQ-4124,Applied,l.chen,2026-07-15,2026-10-03,,Security Engineer,Deployment Strategy,IC2,AMER,k.ivanov,Open,140000,180000,5,4,false,,0
+cand_90168,Ken Mensah,ken.mensah@postbox.io,Agency,REQ-4107,Offer,j.rivera,2026-07-11,2026-10-04,140000,Security Engineer,Security,IC5,APAC,t.moreau,Open,110000,140000,4,5,false,,4
+cand_90194,Kofi Pires,kofi.pires@gridmail.com,Agency,REQ-4120,Applied,l.chen,2026-07-22,2026-09-30,,Recruiting Coordinator,Security,IC5,APAC,t.moreau,Closed,120000,160000,8,4,false,,0
+cand_90183,Lila Tan,lila.tan@postbox.io,Agency,REQ-4102,Onsite,p.devi,2026-08-12,2026-10-07,,Product Designer,Deployment Strategy,IC5,AMER,k.ivanov,Open,110000,140000,1,9,false,,3
+cand_90217,Nils Nair,nils.nair@mailbox.com,LinkedIn,REQ-4105,Applied,l.chen,2026-07-20,2026-10-04,,Product Designer,Engineering,IC5,AMER,t.moreau,Open,140000,180000,4,4,false,,0
+cand_90159,Nora Brandt,nora.brandt@postbox.io,Agency,REQ-4112,Applied,p.devi,2026-05-14,2026-10-03,,Data Engineer,Deployment Strategy,IC3,APAC,k.ivanov,Open,140000,170000,5,4,false,,0
+cand_90407,Pablo Abara,pablo.abara@gridmail.com,Agency,REQ-4116,Applied,a.okafor,2026-10-05,2026-10-08,,Recruiting Coordinator,Security,IC3,AMER,t.moreau,Open,110000,160000,0,4,false,,0
+cand_90143,Ravi Tan,ravi.tan@postbox.io,Agency,REQ-4106,Applied,a.okafor,2026-08-01,2026-10-05,,Recruiting Coordinator,Engineering,IC2,APAC,s.bello,Closed,120000,150000,3,4,false,,0
+cand_90127,Rosa Brandt,rosa.brandt@postbox.io,Sourced,REQ-4119,Applied,a.okafor,2026-06-08,2026-10-06,,Forward Deployed Engineer,Product,IC3,EMEA,k.ivanov,Closed,120000,170000,2,4,false,,0
+cand_90325,Sana Demir,sana.demir@mailbox.com,Referral,REQ-4124,Technical Screen,m.strand,2026-07-28,2026-10-04,,Security Engineer,Deployment Strategy,IC2,AMER,k.ivanov,Open,140000,180000,4,7,false,,2
+cand_90111,Soren Demir,soren.demir@postbox.io,University,REQ-4101,Recruiter Screen,j.rivera,2026-07-08,2026-10-04,,Product Designer,Product,IC2,AMER,r.aldridge,Open,110000,160000,4,5,false,,1
+cand_90251,Soren Rao,soren.rao@mailbox.com,LinkedIn,REQ-4114,Onsite,l.chen,2026-09-24,2026-10-01,,Product Designer,Engineering,IC2,APAC,t.moreau,Open,130000,170000,7,9,false,,3
+cand_90192,Theo Mensah,theo.mensah@postbox.io,University,REQ-4117,Recruiter Screen,m.strand,2026-09-24,2026-10-08,,Product Designer,Security,IC5,AMER,r.aldridge,Closed,110000,150000,0,5,false,,1
+cand_90034,Yusuf Okonkwo,yusuf.okonkwo@gridmail.com,University,REQ-4118,Onsite,m.strand,2026-04-30,2026-10-06,,Software Engineer,Deployment Strategy,IC2,AMER,k.ivanov,Closed,120000,170000,2,9,false,,3
+cand_90383,Zoe Delgado,zoe.delgado@gridmail.com,Agency,REQ-4103,Applied,a.okafor,2026-04-24,2026-10-08,,Recruiting Coordinator,Product,IC4,EMEA,s.bello,Closed,120000,160000,0,4,false,,0
+cand_90356,Zoe Vance,zoe.vance@postbox.io,Careers Site,REQ-4107,Onsite,l.chen,2026-05-16,2026-10-01,,Security Engineer,Security,IC5,APAC,t.moreau,Open,110000,140000,7,9,false,,3
+cand_90026,Arjun Sorensen,arjun.sorensen@postbox.io,Agency,REQ-4108,Recruiter Screen,l.chen,2026-08-04,2026-10-04,,Recruiting Coordinator,Engineering,IC3,APAC,s.bello,Open,130000,170000,4,5,false,,1
+cand_90242,Pablo Vance,,Agency,REQ-4118,Applied,a.okafor,2026-06-11,2026-10-01,,Software Engineer,Deployment Strategy,IC2,AMER,k.ivanov,Closed,120000,170000,7,4,false,,0
+cand_90294,Dev Rao,dev.rao@postbox.io,Sourced,REQ-4110,Applied,m.strand,2026-08-27,2026-10-02,,Product Designer,Security,IC3,APAC,k.ivanov,Closed,120000,170000,6,4,false,,0
+cand_90268,Hana Ferreira,hana.ferreira@gridmail.com,University,REQ-4111,Applied,m.strand,2026-06-12,2026-10-08,,Forward Deployed Engineer,Security,IC3,AMER,t.moreau,Open,140000,190000,0,4,false,,0
+cand_90036,Hana Kim,hana.kim@gridmail.com,LinkedIn,REQ-4103,Offer,j.rivera,2026-07-02,2026-10-05,130000,Recruiting Coordinator,Product,IC4,EMEA,s.bello,Closed,120000,160000,3,5,false,,4
+cand_90053,Ife Delgado,ife.delgado@mailbox.com,University,REQ-4122,Applied,j.rivera,2026-08-25,2026-10-04,,Software Engineer,Engineering,IC2,AMER,r.aldridge,Closed,120000,150000,4,4,false,,0
+cand_90110,Mei Kim,mei.kim@postbox.io,Sourced,REQ-4114,Offer,a.okafor,2026-05-15,2026-10-03,150000,Product Designer,Engineering,IC2,APAC,t.moreau,Open,130000,170000,5,5,false,,4
+cand_90297,Noah Keller,noah.keller@gridmail.com,Careers Site,REQ-4107,Recruiter Screen,j.rivera,2026-09-10,2026-09-25,,Security Engineer,Security,IC5,APAC,t.moreau,Open,110000,140000,13,5,true,,1
+cand_90132,Nora Demir,nora.demir@gridmail.com,Referral,REQ-4120,Technical Screen,a.okafor,2026-07-07,2026-10-03,,Recruiting Coordinator,Security,IC5,APAC,t.moreau,Closed,120000,160000,5,7,false,,2
+cand_90299,Nora Demir,nora.demir@postbox.io,Sourced,REQ-4113,Technical Screen,l.chen,2026-10-06,2026-10-07,,Recruiting Coordinator,Deployment Strategy,IC5,APAC,r.aldridge,Open,120000,160000,1,7,false,,2
+cand_90421,Nora Pires,nora.pires@gridmail.com,University,REQ-4110,Recruiter Screen,a.okafor,2026-07-31,2026-10-07,,Product Designer,Security,IC3,APAC,k.ivanov,Closed,120000,170000,1,5,false,,1
+cand_90078,Pablo Fitzgerald,pablo.fitzgerald@postbox.io,University,REQ-4110,Recruiter Screen,a.okafor,2026-07-29,2026-10-04,,Product Designer,Security,IC3,APAC,k.ivanov,Closed,120000,170000,4,5,false,,1
+cand_90000,Pablo Mensah,pablo.mensah@postbox.io,LinkedIn,REQ-4101,Applied,p.devi,2026-08-21,2026-10-05,,Product Designer,Product,IC2,AMER,r.aldridge,Open,110000,160000,3,4,false,,0
+cand_90028,Priya Abara,priya.abara@postbox.io,Referral,REQ-4124,Applied,p.devi,2026-05-21,2026-10-08,,Security Engineer,Deployment Strategy,IC2,AMER,k.ivanov,Open,140000,180000,0,4,false,,0
+cand_90079,Priya Delgado,priya.delgado@postbox.io,Sourced,REQ-4111,Technical Screen,a.okafor,2026-08-10,2026-08-14,,Forward Deployed Engineer,Security,IC3,AMER,t.moreau,Open,140000,190000,55,7,true,,2
+cand_90033,Priya Sorensen,priya.sorensen@gridmail.com,Referral,REQ-4124,Applied,a.okafor,2026-05-21,2026-10-03,,Security Engineer,Deployment Strategy,IC2,AMER,k.ivanov,Open,140000,180000,5,4,false,,0
+cand_dup_5166,Ravi Novak,ravi.novak@gridmail.com,Careers Site,REQ-4123,Recruiter Screen,m.strand,2026-04-23,2026-10-07,,Data Engineer,Product,IC3,APAC,s.bello,Open,120000,150000,1,5,false,,1
+cand_90232,Soren Okonkwo,soren.okonkwo@gridmail.com,Sourced,REQ-4110,Recruiter Screen,a.okafor,2026-07-09,2026-10-01,,Product Designer,Security,IC3,APAC,k.ivanov,Closed,120000,170000,7,5,false,,1
+cand_90066,Soren Qureshi,soren.qureshi@mailbox.com,LinkedIn,REQ-4103,Applied,l.chen,2026-04-23,2026-08-29,,Recruiting Coordinator,Product,IC4,EMEA,s.bello,Closed,120000,160000,40,4,true,,0
+cand_90191,Tobias Asante,tobias.asante@mailbox.com,Agency,REQ-4106,Technical Screen,a.okafor,2026-09-28,2026-10-02,,Recruiting Coordinator,Engineering,IC2,APAC,s.bello,Closed,120000,150000,6,7,false,,2
+cand_90093,Vera Holm,vera.holm@mailbox.com,Sourced,REQ-4114,Onsite,m.strand,2026-04-23,2026-08-25,,Product Designer,Engineering,IC2,APAC,t.moreau,Open,130000,170000,44,9,true,,3
+cand_90319,Vera Okonkwo,vera.okonkwo@mailbox.com,Sourced,REQ-4111,Applied,l.chen,2026-06-10,2026-10-07,,Forward Deployed Engineer,Security,IC3,AMER,t.moreau,Open,140000,190000,1,4,false,,0
+cand_90121,Vera Silva,vera.silva@postbox.io,University,REQ-4123,Recruiter Screen,m.strand,2026-08-25,2026-10-08,,Data Engineer,Product,IC3,APAC,s.bello,Open,120000,150000,0,5,false,,1
+cand_90381,Zoe Asante,zoe.asante@gridmail.com,Careers Site,REQ-4109,Recruiter Screen,j.rivera,2026-05-10,2026-10-07,,Recruiting Coordinator,Security,IC2,AMER,r.aldridge,Open,120000,150000,1,5,false,,1
+cand_90358,Zoe Vance,zoe.vance@postbox.io,Referral,REQ-4122,Recruiter Screen,l.chen,2026-07-03,2026-10-08,,Software Engineer,Engineering,IC2,AMER,r.aldridge,Closed,120000,150000,0,5,false,,1
+cand_90142,Hana Delgado,hana.delgado@mailbox.com,Referral,REQ-4123,Recruiter Screen,m.strand,2026-06-27,2026-10-04,,Data Engineer,Product,IC3,APAC,s.bello,Open,120000,150000,4,5,false,,1
+cand_90256,Ife Silva,ife.silva@gridmail.com,LinkedIn,REQ-4119,Onsite,m.strand,2026-04-25,2026-09-20,,Forward Deployed Engineer,Product,IC3,EMEA,k.ivanov,Closed,120000,170000,18,9,false,,3
+cand_90004,Ken Nair,ken.nair@gridmail.com,Agency,REQ-4119,Recruiter Screen,a.okafor,2026-08-07,2026-10-05,,Forward Deployed Engineer,Product,IC3,EMEA,k.ivanov,Closed,120000,170000,3,5,false,,1
+cand_90321,Ken Novak,ken.novak@gridmail.com,Referral,REQ-4108,Technical Screen,l.chen,2026-08-13,2026-08-19,,Recruiting Coordinator,Engineering,IC3,APAC,s.bello,Open,130000,170000,50,7,true,,2
+cand_90283,Lena Nair,lena.nair@mailbox.com,Referral,REQ-4103,Applied,a.okafor,2026-09-20,2026-10-01,,Recruiting Coordinator,Product,IC4,EMEA,s.bello,Closed,120000,160000,7,4,false,,0
+cand_90042,Lila Keller,lila.keller@mailbox.com,LinkedIn,REQ-4107,Technical Screen,l.chen,2026-04-24,2026-10-01,,Security Engineer,Security,IC5,APAC,t.moreau,Open,110000,140000,7,7,false,,2
+cand_90208,Nils Pires,nils.pires@postbox.io,Careers Site,REQ-4102,Applied,j.rivera,2026-08-18,2026-10-04,,Product Designer,Deployment Strategy,IC5,AMER,k.ivanov,Open,110000,140000,4,4,false,,0
+cand_90384,Noah Qureshi,noah.qureshi@postbox.io,Referral,REQ-4116,Recruiter Screen,m.strand,2026-09-15,2026-10-03,,Recruiting Coordinator,Security,IC3,AMER,t.moreau,Open,110000,160000,5,5,false,,1
+cand_90017,Nora Asante,nora.asante@postbox.io,LinkedIn,REQ-4108,Technical Screen,a.okafor,2026-06-17,2026-09-30,,Recruiting Coordinator,Engineering,IC3,APAC,s.bello,Open,130000,170000,8,7,false,,2
+cand_90214,Nora Brandt,nora.brandt@gridmail.com,Agency,REQ-4124,Applied,j.rivera,2026-08-08,2026-10-03,,Security Engineer,Deployment Strategy,IC2,AMER,k.ivanov,Open,140000,180000,5,4,false,,0
+cand_90300,Nora Tan,nora.tan@postbox.io,Referral,REQ-4125,Applied,a.okafor,2026-06-06,2026-10-05,,Recruiting Coordinator,Engineering,IC2,EMEA,t.moreau,Open,110000,140000,3,4,false,,0
+cand_90112,Priya Ferreira,priya.ferreira@postbox.io,University,REQ-4117,Onsite,a.okafor,2026-09-13,2026-09-30,,Product Designer,Security,IC5,AMER,r.aldridge,Closed,110000,150000,8,9,false,,3
+cand_90144,Priya Mensah,priya.mensah@gridmail.com,Careers Site,REQ-4122,Applied,a.okafor,2026-06-15,2026-08-17,,Software Engineer,Engineering,IC2,AMER,r.aldridge,Closed,120000,150000,52,4,true,,0
+cand_90312,Soren Abara,soren.abara@gridmail.com,LinkedIn,REQ-4125,Applied,j.rivera,2026-08-29,2026-10-07,,Recruiting Coordinator,Engineering,IC2,EMEA,t.moreau,Open,110000,140000,1,4,false,,0
+cand_90134,Soren Delgado,soren.delgado@mailbox.com,LinkedIn,REQ-4110,Applied,j.rivera,2026-06-11,2026-10-05,,Product Designer,Security,IC3,APAC,k.ivanov,Closed,120000,170000,3,4,false,,0
+cand_90113,Soren Novak,soren.novak@mailbox.com,Referral,REQ-4103,Technical Screen,j.rivera,2026-07-16,2026-09-30,,Recruiting Coordinator,Product,IC4,EMEA,s.bello,Closed,120000,160000,8,7,false,,2
+cand_90137,Soren Pires,soren.pires@gridmail.com,University,REQ-4117,Applied,j.rivera,2026-09-15,2026-10-07,,Product Designer,Security,IC5,AMER,r.aldridge,Closed,110000,150000,1,4,false,,0
+cand_90260,Theo Keller,theo.keller@mailbox.com,Agency,REQ-4110,Recruiter Screen,m.strand,2026-09-08,2026-10-07,,Product Designer,Security,IC3,APAC,k.ivanov,Closed,120000,170000,1,5,false,,1
+cand_90336,Tobias Fitzgerald,tobias.fitzgerald@mailbox.com,Referral,REQ-4109,Applied,j.rivera,2026-09-10,2026-10-04,,Recruiting Coordinator,Security,IC2,AMER,r.aldridge,Open,120000,150000,4,4,false,,0
+cand_90228,Vera Tan,vera.tan@gridmail.com,Sourced,REQ-4105,Recruiter Screen,p.devi,2026-09-15,2026-10-05,,Product Designer,Engineering,IC5,AMER,t.moreau,Open,140000,180000,3,5,false,,1
+cand_90213,Yusuf Novak,yusuf.novak@postbox.io,Careers Site,REQ-4104,Onsite,a.okafor,2026-06-29,2026-09-30,,Software Engineer,Product,IC2,EMEA,t.moreau,Open,110000,140000,8,9,false,,3
+cand_90229,Zoe Kim,zoe.kim@mailbox.com,LinkedIn,REQ-4108,Technical Screen,m.strand,2026-07-14,2026-09-02,,Recruiting Coordinator,Engineering,IC3,APAC,s.bello,Open,130000,170000,36,7,true,,2
+cand_90360,Zoe Kim,zoe.kim@postbox.io,Referral,REQ-4116,Recruiter Screen,a.okafor,2026-06-13,2026-09-30,,Recruiting Coordinator,Security,IC3,AMER,t.moreau,Open,110000,160000,8,5,false,,1
+cand_90089,Arjun Abara,arjun.abara@gridmail.com,Agency,REQ-4114,Recruiter Screen,p.devi,2026-09-20,2026-10-03,,Product Designer,Engineering,IC2,APAC,t.moreau,Open,130000,170000,5,5,false,,1
+cand_90368,Arjun Ferreira,arjun.ferreira@gridmail.com,Sourced,REQ-4112,Recruiter Screen,l.chen,2026-08-07,2026-10-04,,Data Engineer,Deployment Strategy,IC3,APAC,k.ivanov,Open,140000,170000,4,5,false,,1
+cand_90426,Elif Abara,elif.abara@gridmail.com,University,REQ-4114,Recruiter Screen,a.okafor,2026-05-21,2026-10-03,,Product Designer,Engineering,IC2,APAC,t.moreau,Open,130000,170000,5,5,false,,1
+cand_90064,Hana Kim,hana.kim@postbox.io,Careers Site,REQ-4124,Recruiter Screen,p.devi,2026-08-29,2026-10-01,,Security Engineer,Deployment Strategy,IC2,AMER,k.ivanov,Open,140000,180000,7,5,false,,1
+cand_90016,Ife Tan,ife.tan@gridmail.com,Referral,REQ-4101,Applied,a.okafor,2026-09-29,2026-10-04,,Product Designer,Product,IC2,AMER,r.aldridge,Open,110000,160000,4,4,false,,0
+cand_90067,Jonas Mensah,jonas.mensah@postbox.io,LinkedIn,REQ-4110,Applied,p.devi,2026-08-31,2026-10-06,,Product Designer,Security,IC3,APAC,k.ivanov,Closed,120000,170000,2,4,false,,0
+cand_90248,Lena Ferreira,lena.ferreira@gridmail.com,University,REQ-4108,Applied,j.rivera,2026-06-13,2026-10-07,,Recruiting Coordinator,Engineering,IC3,APAC,s.bello,Open,130000,170000,1,4,false,,0
+cand_90077,Mei Brandt,mei.brandt@gridmail.com,Careers Site,REQ-4105,Recruiter Screen,m.strand,2026-09-03,2026-10-04,,Product Designer,Engineering,IC5,AMER,t.moreau,Open,140000,180000,4,5,false,,1
+cand_90272,Mei Vance,mei.vance@mailbox.com,University,REQ-4106,Technical Screen,j.rivera,2026-07-19,2026-09-30,,Recruiting Coordinator,Engineering,IC2,APAC,s.bello,Closed,120000,150000,8,7,false,,2
+cand_90279,Nils Tan,nils.tan@mailbox.com,Careers Site,REQ-4105,Applied,j.rivera,2026-08-14,2026-10-01,,Product Designer,Engineering,IC5,AMER,t.moreau,Open,140000,180000,7,4,false,,0
+cand_90039,Noah Tan,noah.tan@mailbox.com,Careers Site,REQ-4108,Technical Screen,l.chen,2026-06-09,2026-10-04,,Recruiting Coordinator,Engineering,IC3,APAC,s.bello,Open,130000,170000,4,7,false,,2
+cand_90389,Nora Silva,nora.silva@mailbox.com,Careers Site,REQ-4106,Applied,j.rivera,2026-05-18,2026-10-07,,Recruiting Coordinator,Engineering,IC2,APAC,s.bello,Closed,120000,150000,1,4,false,,0
+cand_90265,Priya Abara,priya.abara@gridmail.com,Sourced,REQ-4123,Applied,m.strand,2026-05-03,2026-10-04,,Data Engineer,Product,IC3,APAC,s.bello,Open,120000,150000,4,4,false,,0
+cand_90309,Priya Qureshi,priya.qureshi@gridmail.com,Agency,REQ-4103,Offer,l.chen,2026-09-28,2026-09-30,140000,Recruiting Coordinator,Product,IC4,EMEA,s.bello,Closed,120000,160000,8,5,false,,4
+cand_90288,Ravi Demir,ravi.demir@mailbox.com,Careers Site,REQ-4116,Applied,j.rivera,2026-07-17,2026-10-08,,Recruiting Coordinator,Security,IC3,AMER,t.moreau,Open,110000,160000,0,4,false,,0
+cand_90219,Ravi Silva,ravi.silva@gridmail.com,Agency,REQ-4121,Applied,l.chen,2026-05-16,2026-09-14,,Forward Deployed Engineer,Deployment Strategy,IC2,EMEA,r.aldridge,Open,110000,160000,24,4,true,,0
+cand_90326,Soren Haddad,soren.haddad@postbox.io,Sourced,REQ-4108,Applied,l.chen,2026-07-17,2026-10-08,,Recruiting Coordinator,Engineering,IC3,APAC,s.bello,Open,130000,170000,0,4,false,,0
+cand_90289,Yusuf Watanabe,yusuf.watanabe@mailbox.com,Sourced,REQ-4118,Applied,l.chen,2026-04-21,2026-09-30,,Software Engineer,Deployment Strategy,IC2,AMER,k.ivanov,Closed,120000,170000,8,4,false,,0
+cand_90178,Amara Asante,amara.asante@gridmail.com,Referral,REQ-4112,Applied,l.chen,2026-07-23,2026-10-05,,Data Engineer,Deployment Strategy,IC3,APAC,k.ivanov,Open,140000,170000,3,4,false,,0
+cand_90019,Arjun Vance,arjun.vance@mailbox.com,Agency,REQ-4113,Recruiter Screen,l.chen,2026-06-24,2026-10-04,,Recruiting Coordinator,Deployment Strategy,IC5,APAC,r.aldridge,Open,120000,160000,4,5,false,,1
+cand_90412,Noah Bauer,,LinkedIn,REQ-4119,Technical Screen,l.chen,2026-09-23,2026-10-08,,Forward Deployed Engineer,Product,IC3,EMEA,k.ivanov,Closed,120000,170000,0,7,false,,2
+cand_90382,Dev Silva,dev.silva@mailbox.com,University,REQ-4107,Offer,m.strand,2026-07-01,2026-10-08,150000,Security Engineer,Security,IC5,APAC,t.moreau,Open,110000,140000,0,5,false,,4
+cand_90148,Elif Fitzgerald,elif.fitzgerald@postbox.io,Referral,REQ-4101,Applied,a.okafor,2026-05-18,2026-10-06,,Product Designer,Product,IC2,AMER,r.aldridge,Open,110000,160000,2,4,false,,0
+cand_90277,Hana Brandt,hana.brandt@postbox.io,Careers Site,REQ-4123,Recruiter Screen,j.rivera,2026-09-03,2026-10-04,,Data Engineer,Product,IC3,APAC,s.bello,Open,120000,150000,4,5,false,,1
+cand_90101,Hana Haddad,hana.haddad@mailbox.com,Sourced,REQ-4114,Applied,l.chen,2026-09-23,2026-10-08,,Product Designer,Engineering,IC2,APAC,t.moreau,Open,130000,170000,0,4,false,,0
+cand_90349,Hana Sorensen,hana.sorensen@gridmail.com,Careers Site,REQ-4121,Onsite,m.strand,2026-06-16,2026-10-02,,Forward Deployed Engineer,Deployment Strategy,IC2,EMEA,r.aldridge,Open,110000,160000,6,9,false,,3
+cand_90124,Idris Fitzgerald,idris.fitzgerald@postbox.io,LinkedIn,REQ-4124,Recruiter Screen,m.strand,2026-09-10,2026-09-30,,Security Engineer,Deployment Strategy,IC2,AMER,k.ivanov,Open,140000,180000,8,5,false,,1
+cand_90115,Jonas Vance,jonas.vance@gridmail.com,Sourced,REQ-4102,Applied,j.rivera,2026-07-12,2026-10-08,,Product Designer,Deployment Strategy,IC5,AMER,k.ivanov,Open,110000,140000,0,4,false,,0
+cand_90084,Lena Brandt,lena.brandt@mailbox.com,Careers Site,REQ-4111,Technical Screen,p.devi,2026-08-12,2026-10-05,,Forward Deployed Engineer,Security,IC3,AMER,t.moreau,Open,140000,190000,3,7,false,,2
+cand_90023,Lila Nair,lila.nair@postbox.io,University,REQ-4104,Recruiter Screen,a.okafor,2026-04-28,2026-10-02,,Software Engineer,Product,IC2,EMEA,t.moreau,Open,110000,140000,6,5,false,,1
+cand_90318,Lila Pires,lila.pires@mailbox.com,LinkedIn,REQ-4114,Onsite,a.okafor,2026-09-29,2026-10-05,,Product Designer,Engineering,IC2,APAC,t.moreau,Open,130000,170000,3,9,false,,3
+cand_90099,Lila Vance,lila.vance@gridmail.com,Agency,REQ-4102,Offer,m.strand,2026-07-09,2026-10-06,130000,Product Designer,Deployment Strategy,IC5,AMER,k.ivanov,Open,110000,140000,2,5,false,,4
+cand_90332,Marta Rao,marta.rao@postbox.io,Referral,REQ-4105,Applied,a.okafor,2026-05-14,2026-08-31,,Product Designer,Engineering,IC5,AMER,t.moreau,Open,140000,180000,38,4,true,,0
+cand_90347,Noah Demir,noah.demir@mailbox.com,Referral,REQ-4112,Onsite,l.chen,2026-09-13,2026-10-03,,Data Engineer,Deployment Strategy,IC3,APAC,k.ivanov,Open,140000,170000,5,9,false,,3
+cand_90059,Nora Haddad,nora.haddad@postbox.io,Referral,REQ-4104,Technical Screen,j.rivera,2026-04-29,2026-10-08,,Software Engineer,Product,IC2,EMEA,t.moreau,Open,110000,140000,0,7,false,,2
+cand_90370,Pablo Asante,pablo.asante@mailbox.com,Sourced,REQ-4105,Recruiter Screen,p.devi,2026-08-18,2026-10-06,,Product Designer,Engineering,IC5,AMER,t.moreau,Open,140000,180000,2,5,false,,1
+cand_90226,Priya Abara,priya.abara@gridmail.com,Careers Site,REQ-4122,Technical Screen,l.chen,2026-09-01,2026-10-05,,Software Engineer,Engineering,IC2,AMER,r.aldridge,Closed,120000,150000,3,7,false,,2
+cand_90271,Priya Novak,priya.novak@mailbox.com,Referral,REQ-4101,Applied,l.chen,2026-05-31,2026-10-08,,Product Designer,Product,IC2,AMER,r.aldridge,Open,110000,160000,0,4,false,,0
+cand_90354,Ravi Keller,ravi.keller@postbox.io,LinkedIn,REQ-4110,Applied,a.okafor,2026-06-15,2026-10-01,,Product Designer,Security,IC3,APAC,k.ivanov,Closed,120000,170000,7,4,false,,0
+cand_90154,Rosa Rao,rosa.rao@mailbox.com,University,REQ-4116,Onsite,p.devi,2026-07-17,2026-10-03,,Recruiting Coordinator,Security,IC3,AMER,t.moreau,Open,110000,160000,5,9,false,,3
+cand_90086,Theo Rao,theo.rao@gridmail.com,LinkedIn,REQ-4118,Applied,m.strand,2026-09-04,2026-10-05,,Software Engineer,Deployment Strategy,IC2,AMER,k.ivanov,Closed,120000,170000,3,4,false,,0
+cand_90030,Tobias Keller,tobias.keller@postbox.io,University,REQ-4121,Recruiter Screen,l.chen,2026-07-29,2026-10-08,,Forward Deployed Engineer,Deployment Strategy,IC2,EMEA,r.aldridge,Open,110000,160000,0,5,false,,1
+cand_90380,Yusuf Demir,yusuf.demir@mailbox.com,Careers Site,REQ-4121,Applied,a.okafor,2026-06-13,2026-10-02,,Forward Deployed Engineer,Deployment Strategy,IC2,EMEA,r.aldridge,Open,110000,160000,6,4,false,,0
+cand_90080,Amara Demir,amara.demir@postbox.io,Agency,REQ-4103,Recruiter Screen,m.strand,2026-06-12,2026-10-04,,Recruiting Coordinator,Product,IC4,EMEA,s.bello,Closed,120000,160000,4,5,false,,1
+cand_90104,Arjun Abara,arjun.abara@gridmail.com,Agency,REQ-4102,Applied,l.chen,2026-07-01,2026-10-05,,Product Designer,Deployment Strategy,IC5,AMER,k.ivanov,Open,110000,140000,3,4,false,,0
+cand_90316,Arjun Mensah,arjun.mensah@gridmail.com,Agency,REQ-4106,Technical Screen,l.chen,2026-07-16,2026-10-02,,Recruiting Coordinator,Engineering,IC2,APAC,s.bello,Closed,120000,150000,6,7,false,,2
+cand_90329,Arjun Tan,arjun.tan@mailbox.com,Sourced,REQ-4111,Technical Screen,m.strand,2026-08-21,2026-09-08,,Forward Deployed Engineer,Security,IC3,AMER,t.moreau,Open,140000,190000,30,7,true,,2
+cand_90366,Elif Holm,elif.holm@postbox.io,Referral,REQ-4109,Applied,j.rivera,2026-08-30,2026-10-08,,Recruiting Coordinator,Security,IC2,AMER,r.aldridge,Open,120000,150000,0,4,false,,0
+cand_90163,Elif Pires,elif.pires@postbox.io,Careers Site,REQ-4103,Recruiter Screen,l.chen,2026-05-15,2026-10-08,,Recruiting Coordinator,Product,IC4,EMEA,s.bello,Closed,120000,160000,0,5,false,,1
+cand_90328,Idris Kim,idris.kim@postbox.io,Referral,REQ-4115,Applied,m.strand,2026-07-22,2026-09-30,,Forward Deployed Engineer,Product,IC2,APAC,t.moreau,Open,140000,190000,8,4,false,,0
+cand_90240,Ife Mensah,ife.mensah@mailbox.com,Referral,REQ-4117,Recruiter Screen,p.devi,2026-07-07,2026-08-29,,Product Designer,Security,IC5,AMER,r.aldridge,Closed,110000,150000,40,5,true,,1
+cand_90022,Ife Silva,ife.silva@mailbox.com,Referral,REQ-4107,Applied,l.chen,2026-07-19,2026-10-05,,Security Engineer,Security,IC5,APAC,t.moreau,Open,110000,140000,3,4,false,,0
+cand_90372,Jonas Rao,jonas.rao@gridmail.com,University,REQ-4111,Recruiter Screen,a.okafor,2026-04-29,2026-10-04,,Forward Deployed Engineer,Security,IC3,AMER,t.moreau,Open,140000,190000,4,5,false,,1
+cand_90057,Kofi Holm,kofi.holm@gridmail.com,Careers Site,REQ-4124,Onsite,p.devi,2026-07-14,2026-10-01,,Security Engineer,Deployment Strategy,IC2,AMER,k.ivanov,Open,140000,180000,7,9,false,,3
+cand_90386,Marta Asante,marta.asante@postbox.io,LinkedIn,REQ-4106,Recruiter Screen,j.rivera,2026-07-14,2026-10-05,,Recruiting Coordinator,Engineering,IC2,APAC,s.bello,Closed,120000,150000,3,5,false,,1
+cand_90364,Marta Okonkwo,marta.okonkwo@gridmail.com,Sourced,REQ-4116,Recruiter Screen,p.devi,2026-07-24,2026-10-06,,Recruiting Coordinator,Security,IC3,AMER,t.moreau,Open,110000,160000,2,5,false,,1
+cand_90190,Mei Kim,mei.kim@postbox.io,Referral,REQ-4104,Technical Screen,j.rivera,2026-06-20,2026-10-05,,Software Engineer,Product,IC2,EMEA,t.moreau,Open,110000,140000,3,7,false,,2
+cand_90307,Mei Mensah,mei.mensah@gridmail.com,Sourced,REQ-4102,Applied,j.rivera,2026-07-30,2026-10-06,,Product Designer,Deployment Strategy,IC5,AMER,k.ivanov,Open,110000,140000,2,4,false,,0
+cand_90216,Noah Vance,noah.vance@gridmail.com,University,REQ-4104,Onsite,l.chen,2026-09-18,2026-10-06,,Software Engineer,Product,IC2,EMEA,t.moreau,Open,110000,140000,2,9,false,,3
+cand_90375,Nora Mensah,nora.mensah@gridmail.com,LinkedIn,REQ-4112,Applied,a.okafor,2026-04-25,2026-10-05,,Data Engineer,Deployment Strategy,IC3,APAC,k.ivanov,Open,140000,170000,3,4,false,,0
+cand_90167,Owen Asante,owen.asante@gridmail.com,Careers Site,REQ-4116,Technical Screen,l.chen,2026-09-01,2026-09-30,,Recruiting Coordinator,Security,IC3,AMER,t.moreau,Open,110000,160000,8,7,false,,2
+cand_90114,Priya Pires,priya.pires@gridmail.com,University,REQ-4119,Technical Screen,m.strand,2026-09-26,2026-10-01,,Forward Deployed Engineer,Product,IC3,EMEA,k.ivanov,Closed,120000,170000,7,7,false,,2
+cand_90293,Rosa Silva,rosa.silva@gridmail.com,Careers Site,REQ-4112,Applied,p.devi,2026-05-25,2026-09-25,,Data Engineer,Deployment Strategy,IC3,APAC,k.ivanov,Open,140000,170000,13,4,true,,0
+cand_90373,Sana Pires,sana.pires@postbox.io,Referral,REQ-4117,Applied,l.chen,2026-08-20,2026-09-30,,Product Designer,Security,IC5,AMER,r.aldridge,Closed,110000,150000,8,4,false,,0
+cand_90049,Soren Haddad,soren.haddad@gridmail.com,Careers Site,REQ-4109,Applied,p.devi,2026-05-26,2026-10-01,,Recruiting Coordinator,Security,IC2,AMER,r.aldridge,Open,120000,150000,7,4,false,,0
+cand_90186,Soren Vance,soren.vance@mailbox.com,Sourced,REQ-4102,Technical Screen,a.okafor,2026-06-27,2026-10-08,,Product Designer,Deployment Strategy,IC5,AMER,k.ivanov,Open,110000,140000,0,7,false,,2
+cand_90391,Theo Tan,theo.tan@postbox.io,Careers Site,REQ-4124,Applied,p.devi,2026-05-21,2026-10-06,,Security Engineer,Deployment Strategy,IC2,AMER,k.ivanov,Open,140000,180000,2,4,false,,0
+cand_90377,Zoe Okonkwo,zoe.okonkwo@gridmail.com,Agency,REQ-4120,Applied,a.okafor,2026-09-15,2026-09-27,,Recruiting Coordinator,Security,IC5,APAC,t.moreau,Closed,120000,160000,11,4,true,,0
+cand_90170,Hana Kim,hana.kim@mailbox.com,Careers Site,REQ-4122,Recruiter Screen,a.okafor,2026-06-27,2026-10-06,,Software Engineer,Engineering,IC2,AMER,r.aldridge,Closed,120000,150000,2,5,false,,1
+cand_90193,Lila Brandt,lila.brandt@gridmail.com,Agency,REQ-4107,Applied,j.rivera,2026-07-24,2026-10-03,,Security Engineer,Security,IC5,APAC,t.moreau,Open,110000,140000,5,4,false,,0
+cand_90305,Nils Adeyemi,nils.adeyemi@mailbox.com,University,REQ-4125,Applied,l.chen,2026-04-26,2026-10-07,,Recruiting Coordinator,Engineering,IC2,EMEA,t.moreau,Open,110000,140000,1,4,false,,0
+cand_90339,Nora Bauer,nora.bauer@gridmail.com,Agency,REQ-4119,Technical Screen,a.okafor,2026-09-27,2026-10-04,,Forward Deployed Engineer,Product,IC3,EMEA,k.ivanov,Closed,120000,170000,4,7,false,,2
+cand_90365,Sana Bauer,sana.bauer@gridmail.com,Sourced,REQ-4109,Applied,l.chen,2026-07-08,2026-10-02,,Recruiting Coordinator,Security,IC2,AMER,r.aldridge,Open,120000,150000,6,4,false,,0
+cand_90369,Soren Kim,soren.kim@gridmail.com,Referral,REQ-4107,Applied,j.rivera,2026-05-18,2026-10-04,,Security Engineer,Security,IC5,APAC,t.moreau,Open,110000,140000,4,4,false,,0
+cand_90025,Soren Mensah,soren.mensah@gridmail.com,Agency,REQ-4117,Technical Screen,l.chen,2026-05-16,2026-10-01,,Product Designer,Security,IC5,AMER,r.aldridge,Closed,110000,150000,7,7,false,,2
+cand_90306,Tobias Kim,tobias.kim@postbox.io,Careers Site,REQ-4105,Applied,l.chen,2026-04-25,2026-10-06,,Product Designer,Engineering,IC5,AMER,t.moreau,Open,140000,180000,2,4,false,,0
+cand_90133,Arjun Silva,arjun.silva@mailbox.com,Sourced,REQ-4114,Applied,l.chen,2026-09-25,2026-10-03,,Product Designer,Engineering,IC2,APAC,t.moreau,Open,130000,170000,5,4,false,,0
+cand_90378,Zoe Silva,,Agency,REQ-4120,Applied,a.okafor,2026-06-20,2026-10-05,,Recruiting Coordinator,Security,IC5,APAC,t.moreau,Closed,120000,160000,3,4,false,,0
+cand_90107,Clara Novak,clara.novak@postbox.io,Sourced,REQ-4110,Applied,m.strand,2026-09-16,2026-10-04,,Product Designer,Security,IC3,APAC,k.ivanov,Closed,120000,170000,4,4,false,,0
+cand_90043,Dev Kim,dev.kim@gridmail.com,University,REQ-4110,Recruiter Screen,j.rivera,2026-06-07,2026-10-03,,Product Designer,Security,IC3,APAC,k.ivanov,Closed,120000,170000,5,5,false,,1
+cand_90239,Hana Qureshi,hana.qureshi@mailbox.com,Agency,REQ-4109,Recruiter Screen,m.strand,2026-06-04,2026-10-06,,Recruiting Coordinator,Security,IC2,AMER,r.aldridge,Open,120000,150000,2,5,false,,1
+cand_90317,Ife Abara,ife.abara@mailbox.com,Agency,REQ-4109,Technical Screen,p.devi,2026-05-27,2026-09-26,,Recruiting Coordinator,Security,IC2,AMER,r.aldridge,Open,120000,150000,12,7,false,,2
+cand_90014,Lena Watanabe,lena.watanabe@mailbox.com,University,REQ-4114,Technical Screen,j.rivera,2026-09-09,2026-10-08,,Product Designer,Engineering,IC2,APAC,t.moreau,Open,130000,170000,0,7,false,,2
+cand_90267,Lila Demir,lila.demir@postbox.io,Careers Site,REQ-4116,Technical Screen,a.okafor,2026-09-06,2026-10-08,,Recruiting Coordinator,Security,IC3,AMER,t.moreau,Open,110000,160000,0,7,false,,2
+cand_90334,Lila Silva,lila.silva@postbox.io,University,REQ-4112,Applied,a.okafor,2026-05-02,2026-10-02,,Data Engineer,Deployment Strategy,IC3,APAC,k.ivanov,Open,140000,170000,6,4,false,,0
+cand_90310,Marta Okonkwo,marta.okonkwo@gridmail.com,Referral,REQ-4119,Applied,j.rivera,2026-06-20,2026-10-02,,Forward Deployed Engineer,Product,IC3,EMEA,k.ivanov,Closed,120000,170000,6,4,false,,0
+cand_90427,Mei Rao,mei.rao@mailbox.com,Agency,REQ-4111,Technical Screen,p.devi,2026-10-03,2026-10-05,,Forward Deployed Engineer,Security,IC3,AMER,t.moreau,Open,140000,190000,3,7,false,,2
+cand_90091,Nils Sorensen,nils.sorensen@gridmail.com,Careers Site,REQ-4102,Technical Screen,m.strand,2026-06-15,2026-10-07,,Product Designer,Deployment Strategy,IC5,AMER,k.ivanov,Open,110000,140000,1,7,false,,2
+cand_90050,Noah Asante,noah.asante@mailbox.com,Sourced,REQ-4107,Applied,m.strand,2026-08-14,2026-10-04,,Security Engineer,Security,IC5,APAC,t.moreau,Open,110000,140000,4,4,false,,0
+cand_90158,Noah Ferreira,noah.ferreira@mailbox.com,University,REQ-4123,Technical Screen,j.rivera,2026-07-25,2026-10-07,,Data Engineer,Product,IC3,APAC,s.bello,Open,120000,150000,1,7,false,,2
+cand_90073,Nora Novak,nora.novak@mailbox.com,Careers Site,REQ-4115,Applied,a.okafor,2026-06-20,2026-10-01,,Forward Deployed Engineer,Product,IC2,APAC,t.moreau,Open,140000,190000,7,4,false,,0
+cand_90024,Owen Silva,owen.silva@mailbox.com,University,REQ-4107,Onsite,a.okafor,2026-06-20,2026-09-30,,Security Engineer,Security,IC5,APAC,t.moreau,Open,110000,140000,8,9,false,,3
+cand_90263,Priya Ferreira,priya.ferreira@mailbox.com,Careers Site,REQ-4106,Recruiter Screen,m.strand,2026-05-02,2026-10-07,,Recruiting Coordinator,Engineering,IC2,APAC,s.bello,Closed,120000,150000,1,5,false,,1
+cand_90185,Priya Pires,priya.pires@postbox.io,University,REQ-4101,Recruiter Screen,p.devi,2026-09-22,2026-09-30,,Product Designer,Product,IC2,AMER,r.aldridge,Open,110000,160000,8,5,false,,1
+cand_90103,Ravi Haddad,ravi.haddad@postbox.io,Referral,REQ-4110,Applied,a.okafor,2026-08-15,2026-10-05,,Product Designer,Security,IC3,APAC,k.ivanov,Closed,120000,170000,3,4,false,,0
+cand_90177,Rosa Pires,rosa.pires@gridmail.com,Referral,REQ-4120,Recruiter Screen,j.rivera,2026-08-18,2026-10-03,,Recruiting Coordinator,Security,IC5,APAC,t.moreau,Closed,120000,160000,5,5,false,,1
+cand_90238,Rosa Rao,rosa.rao@mailbox.com,Sourced,REQ-4112,Applied,l.chen,2026-07-20,2026-10-03,,Data Engineer,Deployment Strategy,IC3,APAC,k.ivanov,Open,140000,170000,5,4,false,,0
+cand_90041,Sana Demir,sana.demir@mailbox.com,Referral,REQ-4123,Onsite,l.chen,2026-07-28,2026-09-30,,Data Engineer,Product,IC3,APAC,s.bello,Open,120000,150000,8,9,false,,3
+cand_90021,Sana Mensah,sana.mensah@mailbox.com,Sourced,REQ-4116,Recruiter Screen,p.devi,2026-08-13,2026-10-06,,Recruiting Coordinator,Security,IC3,AMER,t.moreau,Open,110000,160000,2,5,false,,1
+cand_90415,Soren Haddad,soren.haddad@mailbox.com,Careers Site,REQ-4100,Recruiter Screen,m.strand,2026-08-08,2026-10-08,,Software Engineer,Security,IC3,AMER,s.bello,Open,110000,160000,0,5,false,,1
+cand_90082,Theo Brandt,theo.brandt@mailbox.com,Agency,REQ-4114,Applied,j.rivera,2026-06-02,2026-10-05,,Product Designer,Engineering,IC2,APAC,t.moreau,Open,130000,170000,3,4,false,,0
+cand_90304,Theo Qureshi,theo.qureshi@postbox.io,LinkedIn,REQ-4109,Recruiter Screen,p.devi,2026-06-03,2026-10-03,,Recruiting Coordinator,Security,IC2,AMER,r.aldridge,Open,120000,150000,5,5,false,,1
+cand_90405,Tobias Silva,tobias.silva@gridmail.com,LinkedIn,REQ-4107,Technical Screen,l.chen,2026-06-18,2026-10-03,,Security Engineer,Security,IC5,APAC,t.moreau,Open,110000,140000,5,7,false,,2
+cand_90070,Vera Vance,vera.vance@postbox.io,Careers Site,REQ-4113,Offer,m.strand,2026-09-25,2026-10-08,160000,Recruiting Coordinator,Deployment Strategy,IC5,APAC,r.aldridge,Open,120000,160000,0,5,false,,4
+cand_90385,Yusuf Haddad,yusuf.haddad@postbox.io,Agency,REQ-4109,Onsite,a.okafor,2026-08-18,2026-10-08,,Recruiting Coordinator,Security,IC2,AMER,r.aldridge,Open,120000,150000,0,9,false,,3
+cand_90398,Zoe Demir,zoe.demir@mailbox.com,Sourced,REQ-4125,Applied,j.rivera,2026-08-20,2026-10-07,,Recruiting Coordinator,Engineering,IC2,EMEA,t.moreau,Open,110000,140000,1,4,false,,0
+cand_90189,Zoe Fitzgerald,zoe.fitzgerald@mailbox.com,Sourced,REQ-4124,Applied,a.okafor,2026-05-22,2026-10-06,,Security Engineer,Deployment Strategy,IC2,AMER,k.ivanov,Open,140000,180000,2,4,false,,0
+cand_90056,Zoe Mensah,zoe.mensah@postbox.io,Sourced,REQ-4115,Offer,j.rivera,2026-08-21,2026-09-02,150000,Forward Deployed Engineer,Product,IC2,APAC,t.moreau,Open,140000,190000,36,5,true,,4
+cand_dup_1983,Zoe Nair,zoe.nair@gridmail.com,Sourced,REQ-4117,Onsite,a.okafor,2026-05-23,2026-10-03,,Product Designer,Security,IC5,AMER,r.aldridge,Closed,110000,150000,5,9,false,,3
+cand_90150,Zoe Vance,zoe.vance@gridmail.com,Agency,REQ-4105,Recruiter Screen,p.devi,2026-09-13,2026-10-06,,Product Designer,Engineering,IC5,AMER,t.moreau,Open,140000,180000,2,5,false,,1
+cand_90128,Amara Demir,amara.demir@mailbox.com,University,REQ-4107,Applied,j.rivera,2026-08-29,2026-09-30,,Security Engineer,Security,IC5,APAC,t.moreau,Open,110000,140000,8,4,false,,0
+cand_dup_6483,Clara Haddad,clara.haddad@gridmail.com,Agency,REQ-4105,Applied,j.rivera,2026-05-10,2026-10-06,,Product Designer,Engineering,IC5,AMER,t.moreau,Open,140000,180000,2,4,false,,0
+cand_90027,Dev Keller,dev.keller@mailbox.com,Referral,REQ-4112,Applied,m.strand,2026-07-17,2026-09-24,,Data Engineer,Deployment Strategy,IC3,APAC,k.ivanov,Open,140000,170000,14,4,true,,0
+cand_90149,Dev Watanabe,dev.watanabe@mailbox.com,Careers Site,REQ-4106,Applied,p.devi,2026-08-10,2026-09-30,,Recruiting Coordinator,Engineering,IC2,APAC,s.bello,Closed,120000,150000,8,4,false,,0
+cand_90120,Elif Silva,elif.silva@mailbox.com,Agency,REQ-4104,Recruiter Screen,m.strand,2026-05-25,2026-10-03,,Software Engineer,Product,IC2,EMEA,t.moreau,Open,110000,140000,5,5,false,,1
+cand_90230,Elif Tan,elif.tan@postbox.io,University,REQ-4118,Recruiter Screen,p.devi,2026-05-12,2026-10-03,,Software Engineer,Deployment Strategy,IC2,AMER,k.ivanov,Closed,120000,170000,5,5,false,,1
+cand_90254,Idris Nair,idris.nair@mailbox.com,LinkedIn,REQ-4103,Applied,l.chen,2026-08-10,2026-10-01,,Recruiting Coordinator,Product,IC4,EMEA,s.bello,Closed,120000,160000,7,4,false,,0
+cand_90397,Ife Fitzgerald,ife.fitzgerald@mailbox.com,Agency,REQ-4105,Recruiter Screen,m.strand,2026-06-05,2026-09-29,,Product Designer,Engineering,IC5,AMER,t.moreau,Open,140000,180000,9,5,false,,1
+cand_90324,Ife Haddad,ife.haddad@gridmail.com,Agency,REQ-4109,Applied,a.okafor,2026-09-10,2026-10-03,,Recruiting Coordinator,Security,IC2,AMER,r.aldridge,Open,120000,150000,5,4,false,,0
+cand_90095,Ife Nair,ife.nair@gridmail.com,Referral,REQ-4118,Applied,p.devi,2026-09-12,2026-10-03,,Software Engineer,Deployment Strategy,IC2,AMER,k.ivanov,Closed,120000,170000,5,4,false,,0
+cand_90417,Ife Tan,ife.tan@gridmail.com,Referral,REQ-4114,Offer,l.chen,2026-07-09,2026-10-04,150000,Product Designer,Engineering,IC2,APAC,t.moreau,Open,130000,170000,4,5,false,,4
+cand_90051,Ken Adeyemi,ken.adeyemi@postbox.io,Referral,REQ-4109,Applied,l.chen,2026-05-07,2026-10-08,,Recruiting Coordinator,Security,IC2,AMER,r.aldridge,Open,120000,150000,0,4,false,,0
+cand_90298,Ken Ferreira,ken.ferreira@mailbox.com,University,REQ-4106,Onsite,m.strand,2026-09-14,2026-10-03,,Recruiting Coordinator,Engineering,IC2,APAC,s.bello,Closed,120000,150000,5,9,false,,3
+cand_90422,Ken Sorensen,ken.sorensen@gridmail.com,Referral,REQ-4106,Applied,l.chen,2026-08-12,2026-09-12,,Recruiting Coordinator,Engineering,IC2,APAC,s.bello,Closed,120000,150000,26,4,true,,0
+cand_dup_6914,Kofi Qureshi,kofi.qureshi@postbox.io,University,REQ-4114,Applied,m.strand,2026-09-18,2026-10-06,,Product Designer,Engineering,IC2,APAC,t.moreau,Open,130000,170000,2,4,false,,0
+cand_90278,Lena Keller,lena.keller@mailbox.com,Referral,REQ-4114,Applied,l.chen,2026-08-16,2026-10-07,,Product Designer,Engineering,IC2,APAC,t.moreau,Open,130000,170000,1,4,false,,0
+cand_90054,Lena Pires,lena.pires@gridmail.com,University,REQ-4119,Recruiter Screen,j.rivera,2026-06-16,2026-10-08,,Forward Deployed Engineer,Product,IC3,EMEA,k.ivanov,Closed,120000,170000,0,5,false,,1
+cand_90357,Lila Haddad,lila.haddad@mailbox.com,LinkedIn,REQ-4100,Recruiter Screen,j.rivera,2026-04-21,2026-10-01,,Software Engineer,Security,IC3,AMER,s.bello,Open,110000,160000,7,5,false,,1
+cand_90393,Lila Pires,lila.pires@gridmail.com,Sourced,REQ-4111,Applied,a.okafor,2026-08-27,2026-10-06,,Forward Deployed Engineer,Security,IC3,AMER,t.moreau,Open,140000,190000,2,4,false,,0
+cand_90335,Marta Asante,marta.asante@gridmail.com,LinkedIn,REQ-4120,Applied,m.strand,2026-10-03,2026-10-03,,Recruiting Coordinator,Security,IC5,APAC,t.moreau,Closed,120000,160000,5,4,false,,0
+cand_90209,Mei Novak,mei.novak@gridmail.com,Sourced,REQ-4102,Applied,l.chen,2026-08-10,2026-10-07,,Product Designer,Deployment Strategy,IC5,AMER,k.ivanov,Open,110000,140000,1,4,false,,0
+cand_90081,Noah Tan,noah.tan@postbox.io,Sourced,REQ-4109,Applied,l.chen,2026-05-03,2026-10-07,,Recruiting Coordinator,Security,IC2,AMER,r.aldridge,Open,120000,150000,1,4,false,,0
+cand_90206,Nora Brandt,nora.brandt@mailbox.com,University,REQ-4117,Recruiter Screen,p.devi,2026-05-02,2026-08-18,,Product Designer,Security,IC5,AMER,r.aldridge,Closed,110000,150000,51,5,true,,1
+cand_90161,Nora Silva,nora.silva@mailbox.com,LinkedIn,REQ-4104,Applied,j.rivera,2026-05-05,2026-09-30,,Software Engineer,Product,IC2,EMEA,t.moreau,Open,110000,140000,8,4,false,,0
+cand_90387,Sana Haddad,sana.haddad@postbox.io,Careers Site,REQ-4100,Technical Screen,j.rivera,2026-05-10,2026-10-03,,Software Engineer,Security,IC3,AMER,s.bello,Open,110000,160000,5,7,false,,2
+cand_90371,Theo Abara,theo.abara@postbox.io,LinkedIn,REQ-4122,Applied,m.strand,2026-07-31,2026-10-04,,Software Engineer,Engineering,IC2,AMER,r.aldridge,Closed,120000,150000,4,4,false,,0
+cand_90313,Tobias Fitzgerald,tobias.fitzgerald@gridmail.com,Agency,REQ-4101,Onsite,m.strand,2026-07-31,2026-10-01,,Product Designer,Product,IC2,AMER,r.aldridge,Open,110000,160000,7,9,false,,3
+cand_90315,Tobias Fitzgerald,tobias.fitzgerald@gridmail.com,Sourced,REQ-4107,Applied,m.strand,2026-07-21,2026-10-01,,Security Engineer,Security,IC5,APAC,t.moreau,Open,110000,140000,7,4,false,,0
+cand_90125,Tobias Pires,tobias.pires@postbox.io,University,REQ-4113,Applied,a.okafor,2026-06-17,2026-10-05,,Recruiting Coordinator,Deployment Strategy,IC5,APAC,r.aldridge,Open,120000,160000,3,4,false,,0
+cand_90020,Tobias Watanabe,tobias.watanabe@postbox.io,Careers Site,REQ-4113,Recruiter Screen,p.devi,2026-07-21,2026-10-08,,Recruiting Coordinator,Deployment Strategy,IC5,APAC,r.aldridge,Open,120000,160000,0,5,false,,1
+cand_90129,Yusuf Abara,yusuf.abara@gridmail.com,University,REQ-4100,Recruiter Screen,p.devi,2026-04-30,2026-10-07,,Software Engineer,Security,IC3,AMER,s.bello,Open,110000,160000,1,5,false,,1
+cand_90092,Zoe Novak,zoe.novak@postbox.io,Careers Site,REQ-4119,Recruiter Screen,l.chen,2026-07-15,2026-09-30,,Forward Deployed Engineer,Product,IC3,EMEA,k.ivanov,Closed,120000,170000,8,5,false,,1
+cand_90281,Ken Adeyemi,ken.adeyemi@gridmail.com,Sourced,REQ-4103,Hired,l.chen,2026-06-13,2026-08-08,140000,Recruiting Coordinator,Product,IC4,EMEA,s.bello,Closed,120000,160000,61,,false,56,5
+cand_90234,Pablo Abara,pablo.abara@mailbox.com,Sourced,REQ-4120,Hired,l.chen,2026-08-08,2026-09-23,140000,Recruiting Coordinator,Security,IC5,APAC,t.moreau,Closed,120000,160000,15,,false,46,5
+cand_90013,Yusuf Watanabe,yusuf.watanabe@mailbox.com,LinkedIn,REQ-4125,Hired,l.chen,2026-08-22,2026-10-08,140000,Recruiting Coordinator,Engineering,IC2,EMEA,t.moreau,Open,110000,140000,0,,false,47,5
+cand_90252,Clara Okonkwo,clara.okonkwo@postbox.io,Referral,REQ-4120,Hired,j.rivera,2026-09-03,2026-10-08,150000,Recruiting Coordinator,Security,IC5,APAC,t.moreau,Closed,120000,160000,0,,false,35,5
+cand_90322,Owen Silva,owen.silva@gridmail.com,Referral,REQ-4119,Hired,a.okafor,2026-10-04,2026-10-08,150000,Forward Deployed Engineer,Product,IC3,EMEA,k.ivanov,Closed,120000,170000,0,,false,4,5
+cand_90180,Lila Demir,lila.demir@gridmail.com,Sourced,REQ-4108,Hired,j.rivera,2026-07-21,2026-09-17,130000,Recruiting Coordinator,Engineering,IC3,APAC,s.bello,Open,130000,170000,21,,false,58,5
+cand_90061,Priya Keller,priya.keller@gridmail.com,LinkedIn,REQ-4115,Hired,j.rivera,2026-09-07,2026-10-08,150000,Forward Deployed Engineer,Product,IC2,APAC,t.moreau,Open,140000,190000,0,,false,31,5
+cand_90250,Ravi Okonkwo,ravi.okonkwo@postbox.io,Careers Site,REQ-4110,Hired,p.devi,2026-08-13,2026-10-04,160000,Product Designer,Security,IC3,APAC,k.ivanov,Closed,120000,170000,4,,false,52,5
+cand_90188,Lila Ferreira,lila.ferreira@postbox.io,Careers Site,REQ-4112,Hired,l.chen,2026-04-24,2026-06-10,140000,Data Engineer,Deployment Strategy,IC3,APAC,k.ivanov,Open,140000,170000,120,,false,47,5
+cand_90303,Sana Okonkwo,sana.okonkwo@gridmail.com,Sourced,REQ-4108,Hired,j.rivera,2026-06-24,2026-08-19,130000,Recruiting Coordinator,Engineering,IC3,APAC,s.bello,Open,130000,170000,50,,false,56,5
+cand_90343,Ife Pires,ife.pires@mailbox.com,Careers Site,REQ-4117,Hired,l.chen,2026-07-07,2026-08-23,160000,Product Designer,Security,IC5,AMER,r.aldridge,Closed,110000,150000,46,,false,47,5
+cand_90083,Arjun Bauer,arjun.bauer@gridmail.com,Sourced,REQ-4113,Hired,a.okafor,2026-06-21,2026-08-18,160000,Recruiting Coordinator,Deployment Strategy,IC5,APAC,r.aldridge,Open,120000,160000,51,,false,58,5
+cand_90038,Nils Abara,nils.abara@mailbox.com,Sourced,REQ-4105,Hired,p.devi,2026-04-27,2026-06-16,150000,Product Designer,Engineering,IC5,AMER,t.moreau,Open,140000,180000,114,,false,50,5
+cand_90141,Nora Qureshi,nora.qureshi@gridmail.com,Referral,REQ-4111,Hired,j.rivera,2026-09-28,2026-10-08,130000,Forward Deployed Engineer,Security,IC3,AMER,t.moreau,Open,140000,190000,0,,false,10,5
+cand_90195,Theo Fitzgerald,,Careers Site,REQ-4113,Hired,m.strand,2026-07-01,2026-08-24,140000,Recruiting Coordinator,Deployment Strategy,IC5,APAC,r.aldridge,Open,120000,160000,45,,false,54,5
+cand_90106,Ravi Adeyemi,ravi.adeyemi@gridmail.com,University,REQ-4102,Hired,l.chen,2026-08-24,2026-10-08,140000,Product Designer,Deployment Strategy,IC5,AMER,k.ivanov,Open,110000,140000,0,,false,45,5
+cand_90302,Sana Haddad,sana.haddad@gridmail.com,University,REQ-4119,Hired,l.chen,2026-06-05,2026-06-27,130000,Forward Deployed Engineer,Product,IC3,EMEA,k.ivanov,Closed,120000,170000,103,,false,22,5
+cand_90006,Jonas Silva,jonas.silva@gridmail.com,Agency,REQ-4102,Hired,p.devi,2026-10-04,2026-10-08,150000,Product Designer,Deployment Strategy,IC5,AMER,k.ivanov,Open,110000,140000,0,,false,4,5
+cand_90199,Sana Vance,sana.vance@gridmail.com,Referral,REQ-4123,Hired,l.chen,2026-10-03,2026-10-08,140000,Data Engineer,Product,IC3,APAC,s.bello,Open,120000,150000,0,,false,5,5
+cand_90301,Sana Demir,sana.demir@postbox.io,Referral,REQ-4123,Hired,a.okafor,2026-09-18,2026-10-08,130000,Data Engineer,Product,IC3,APAC,s.bello,Open,120000,150000,0,,false,20,5
+cand_90119,Marta Rao,marta.rao@mailbox.com,Referral,REQ-4102,Hired,j.rivera,2026-06-04,2026-07-07,130000,Product Designer,Deployment Strategy,IC5,AMER,k.ivanov,Open,110000,140000,93,,false,33,5
+cand_90182,Yusuf Keller,yusuf.keller@gridmail.com,University,REQ-4111,Hired,l.chen,2026-06-06,2026-07-06,160000,Forward Deployed Engineer,Security,IC3,AMER,t.moreau,Open,140000,190000,94,,false,30,5
+cand_90424,Priya Kim,priya.kim@gridmail.com,LinkedIn,REQ-4115,Hired,j.rivera,2026-06-02,2026-08-01,160000,Forward Deployed Engineer,Product,IC2,APAC,t.moreau,Open,140000,190000,68,,false,60,5
+cand_90140,Kofi Watanabe,kofi.watanabe@postbox.io,Sourced,REQ-4104,Hired,a.okafor,2026-08-31,2026-10-08,150000,Software Engineer,Product,IC2,EMEA,t.moreau,Open,110000,140000,0,,false,38,5
+cand_90262,Jonas Brandt,jonas.brandt@gridmail.com,Careers Site,REQ-4116,Hired,l.chen,2026-06-27,2026-08-19,160000,Recruiting Coordinator,Security,IC3,AMER,t.moreau,Open,110000,160000,50,,false,53,5
+cand_90011,Nils Nair,nils.nair@postbox.io,LinkedIn,REQ-4113,Hired,m.strand,2026-08-29,2026-10-08,150000,Recruiting Coordinator,Deployment Strategy,IC5,APAC,r.aldridge,Open,120000,160000,0,,false,40,5
+cand_90258,Ravi Fitzgerald,ravi.fitzgerald@postbox.io,Referral,REQ-4102,Hired,m.strand,2026-07-18,2026-08-16,150000,Product Designer,Deployment Strategy,IC5,AMER,k.ivanov,Open,110000,140000,53,,false,29,5

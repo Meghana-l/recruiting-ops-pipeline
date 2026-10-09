@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Recruiting Pipeline</title>
+<style>
+:root{
+  --bg:#f6f7f6; --card:#fff; --ink:#17201f; --mid:#5c6a68; --soft:#8b9896;
+  --line:#e3e7e4; --rule:#f0f2f0;
+  --teal:#0f5e53; --teal-2:#2d8a78; --sand:#b4802a; --red:#9c3225;
+  --tint:#e6efec; --tint-warn:#fbf1dd; --tint-bad:#fae8e5;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
+h1,h2,h3{margin:0;font-weight:600;letter-spacing:-.015em}
+a{color:var(--teal)}
+button{font:inherit;cursor:pointer}
+:focus-visible{outline:2px solid var(--teal);outline-offset:2px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+
+.top{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:50}
+.top .wrap{display:flex;align-items:center;gap:20px;height:56px}
+.logo{font-weight:600;font-size:16px;letter-spacing:-.02em}
+.nav{margin-left:auto;display:flex;gap:4px;align-items:center}
+.nav button,.nav a{background:none;border:none;padding:7px 12px;border-radius:5px;
+  color:var(--mid);text-decoration:none;font-size:14px}
+.nav button:hover,.nav a:hover{background:var(--rule);color:var(--ink)}
+.nav button[aria-current=true]{background:var(--tint);color:var(--teal);font-weight:600}
+.arw{font-size:11px;opacity:.65;margin-left:2px}
+
+.hero{background:#fff;border-bottom:1px solid var(--line);padding:38px 0 30px}
+.hero h1{font-size:30px;line-height:1.2;max-width:19ch}
+.hero h1 em{font-style:normal;color:var(--teal)}
+.hero p{margin:12px 0 0;color:var(--mid);max-width:62ch}
+
+.strip{margin-top:26px}
+.strip-bar{display:flex;height:34px;border-radius:5px;overflow:hidden;background:var(--rule)}
+.strip-bar button{border:none;padding:0;transition:filter .15s}
+.strip-bar button:hover{filter:brightness(.88)}
+.strip-bar .kept{background:var(--teal)}
+.strip-bar .cut{background:var(--sand)}
+.strip-bar .cut:nth-of-type(even){background:#c99540}
+.strip-key{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.key{border:1px solid var(--line);background:#fff;border-radius:20px;padding:5px 12px;
+  font-size:13px;color:var(--mid);display:flex;gap:7px;align-items:center}
+.key[aria-pressed=true]{border-color:var(--teal);color:var(--teal);background:var(--tint)}
+.key i{width:8px;height:8px;border-radius:2px;display:inline-block;font-style:normal}
+.strip-note{margin:12px 0 0;min-height:42px;color:var(--mid);font-size:14px;max-width:74ch}
+.strip-note b{color:var(--ink);font-weight:600}
+
+main{padding:28px 0 70px}
+section{margin-bottom:30px}
+h2{font-size:17px;margin-bottom:4px}
+.sub{color:var(--mid);font-size:13.5px;margin:0 0 14px;max-width:76ch}
+
+.controls{display:flex;gap:12px;align-items:center;flex-wrap:wrap;
+  background:#fff;border:1px solid var(--line);border-radius:8px;padding:12px 14px;margin-bottom:18px}
+.controls label{font-size:13px;color:var(--mid)}
+select,input[type=search]{font:inherit;font-size:14px;padding:6px 9px;border:1px solid var(--line);
+  border-radius:5px;background:#fff;color:var(--ink)}
+.count{margin-left:auto;font-size:13px;color:var(--mid)}
+.link-btn{background:none;border:none;color:var(--teal);font-size:13px;padding:4px 2px}
+
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:26px}
+.kpi{background:#fff;border:1px solid var(--line);border-radius:8px;padding:15px 16px}
+.kpi .n{font-size:27px;font-weight:600;letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+.kpi .l{color:var(--mid);font-size:13px;margin-top:1px}
+.card{background:#fff;border:1px solid var(--line);border-radius:8px;padding:16px 18px}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:14px}
+
+.fn{display:block;width:100%;border:none;background:none;padding:7px 0;text-align:left}
+.fn:hover .fn-track{background:#e4e8e5}
+.fn-top{display:flex;justify-content:space-between;font-size:13.5px;margin-bottom:4px;gap:10px}
+.fn-top b{font-weight:500}
+.fn-top span{color:var(--mid);font-variant-numeric:tabular-nums;text-align:right}
+.fn-track{height:17px;background:var(--rule);border-radius:4px;overflow:hidden}
+.fn-fill{height:100%;background:var(--teal);border-radius:4px;
+  transition:width .55s cubic-bezier(.22,.8,.3,1)}
+.fn-drop{font-size:12.5px;color:var(--red);margin-top:4px;display:none}
+.fn[aria-expanded=true] .fn-drop{display:block}
+
+.row{display:grid;grid-template-columns:125px 1fr auto;gap:10px;align-items:center;
+  font-size:13.5px;padding:5px 0}
+.row .track{height:14px;background:var(--rule);border-radius:3px;overflow:hidden}
+.row .fill{height:100%;background:var(--teal-2);border-radius:3px;transition:width .5s ease}
+.row .val{color:var(--mid);font-size:12.5px;font-variant-numeric:tabular-nums;min-width:88px;text-align:right}
+
+.tblwrap{overflow-x:auto;background:#fff;border:1px solid var(--line);border-radius:8px}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th{text-align:left;padding:10px 12px;background:#f2f4f2;border-bottom:1px solid var(--line);
+  font-size:12.5px;color:var(--mid);font-weight:600;white-space:nowrap}
+th.sortable{cursor:pointer;user-select:none}
+th.sortable:hover{color:var(--ink)}
+td{padding:8px 12px;border-bottom:1px solid var(--rule);white-space:nowrap}
+tr:last-child td{border-bottom:none}
+tbody tr:hover{background:#fafbfa}
+.tag{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;white-space:nowrap}
+.tag.ok{background:var(--tint);color:var(--teal)}
+.tag.warn{background:var(--tint-warn);color:var(--sand)}
+.tag.bad{background:var(--tint-bad);color:var(--red)}
+td.bad{background:var(--tint-bad);color:var(--red)}
+td.null{color:var(--soft);font-style:italic}
+td.probs{white-space:normal;min-width:160px;line-height:1.9}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12.5px}
+
+.chk{display:flex;gap:11px;align-items:flex-start;padding:10px 0;border-bottom:1px solid var(--rule)}
+.chk:last-child{border-bottom:none}
+.chk .t{flex:1}
+.chk .d{color:var(--mid);font-size:13px;margin-top:1px}
+
+.pager{display:flex;gap:8px;align-items:center;justify-content:center;margin-top:14px;
+  font-size:13.5px;color:var(--mid)}
+.pager button{border:1px solid var(--line);background:#fff;border-radius:5px;padding:5px 11px}
+.pager button:disabled{opacity:.4;cursor:default}
+.hidden{display:none}
+footer{border-top:1px solid var(--line);background:#fff;padding:22px 0;color:var(--mid);font-size:13px}
+@media(max-width:620px){
+  .hero{padding:26px 0 22px}.hero h1{font-size:23px}
+  .kpi .n{font-size:22px}.row{grid-template-columns:95px 1fr}.row .val{display:none}
+  .top .wrap{gap:8px}.nav button,.nav a{padding:7px 9px;font-size:13.5px}
+}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<div class="top"><div class="wrap">
+  <span class="logo">Recruiting Pipeline</span>
+  <nav class="nav">
+    <button data-view="overview" aria-current="true">Overview</button>
+    <button data-view="data">Data<span class="arw">&#8599;</span></button>
+    <a id="gh" href="https://github.com/Meghana-l">GitHub<span class="arw">&#8599;</span></a>
+  </nav>
+</div></div>
+
+<div id="view-overview">
+  <div class="hero"><div class="wrap">
+    <h1>444 messy applications in. <em>405 you can trust</em> out.</h1>
+    <p>Recruiting data arrives split across an applicant tracking system and an HRIS that
+       don't agree with each other. This is what it takes to get from a raw export to a
+       number somebody can act on.</p>
+    <div class="strip">
+      <div class="strip-bar" id="strip"></div>
+      <div class="strip-key" id="stripkey"></div>
+      <p class="strip-note" id="stripnote"></p>
+    </div>
+  </div></div>
+
+  <main class="wrap">
+    <div class="controls">
+      <label>Team <select id="f-dept"></select></label>
+      <label>Region <select id="f-region"></select></label>
+      <label>Source <select id="f-source"></select></label>
+      <button class="link-btn" id="reset">Reset</button>
+      <span class="count" id="filter-count"></span>
+    </div>
+
+    <div class="kpis" id="kpis"></div>
+
+    <section>
+      <h2>Where candidates drop out</h2>
+      <p class="sub">Click any stage to see how many were lost getting into it.</p>
+      <div class="card" id="funnel"></div>
+    </section>
+
+    <div class="cols">
+      <section>
+        <h2>Which channels actually produce hires</h2>
+        <p class="sub">Application volume is easy to get. Hires are the thing that counts.</p>
+        <div class="card" id="sources"></div>
+      </section>
+      <section>
+        <h2>How long each team takes</h2>
+        <p class="sub">Median days from applying to an accepted offer.</p>
+        <div class="card" id="depts"></div>
+      </section>
+    </div>
+
+    <section>
+      <h2>Candidates nobody has touched</h2>
+      <p class="sub">Idle for more than twice the target for their stage. This is the list a
+         recruiting lead works through on a Monday morning.</p>
+      <div class="tblwrap"><table id="stuck"></table></div>
+    </section>
+
+    <section>
+      <h2>What the data can and can't be trusted for</h2>
+      <p class="sub">Checks that run on every pipeline run. Two fail on purpose: they are
+         problems to fix at the source, not things a pipeline should quietly paper over.</p>
+      <div class="card" id="checks"></div>
+    </section>
+  </main>
+</div>
+
+<div id="view-data" class="hidden">
+  <div class="hero"><div class="wrap">
+    <h1>The data itself</h1>
+    <p>Every row, before and after. Switch to the raw export to see the problems
+       highlighted exactly where they occur.</p>
+  </div></div>
+  <main class="wrap">
+    <div class="controls">
+      <label>View
+        <select id="d-mode">
+          <option value="clean">Cleaned dataset</option>
+          <option value="raw">Raw export</option>
+        </select>
+      </label>
+      <label><input type="search" id="d-search" placeholder="Search..." size="22"></label>
+      <label id="d-only-wrap" class="hidden">
+        <input type="checkbox" id="d-only"> only rows with problems
+      </label>
+      <span class="count" id="d-count"></span>
+    </div>
+    <div id="d-legend"></div>
+    <div class="tblwrap"><table id="d-table"></table></div>
+    <div class="pager">
+      <button id="d-prev">Previous</button>
+      <span id="d-page"></span>
+      <button id="d-next">Next</button>
+    </div>
+  </main>
+</div>
+
+<footer><div class="wrap">
+  All data is synthetic and generated by the pipeline in this repository.
+  Built by Meghana Lakshminarayana Swamy.
+</div></footer>
+
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let D, rows, filtered;
+
+const DEFECT_LABELS = {
+  missing_email:'no email', messy_source:'source spelling', us_date:'US date format',
+  future_date:'future date', backdated_activity:'activity before applying',
+  orphan_req:'job not found', duplicate:'duplicate application'
+};
+const FLAG_COL = {missing_email:'email', messy_source:'source', us_date:'applied_at',
+  future_date:'applied_at', backdated_activity:'last_activity_at', orphan_req:'req_id'};
+
+fetch('data.json')
+  .then(r => r.ok ? r.json() : Promise.reject(new Error('data.json returned ' + r.status)))
+  .catch(err => {
+    $('#view-overview').innerHTML =
+      '<div class="wrap" style="padding:40px 22px"><p>Could not load data.json. ' +
+      'Run <code>python src/build_dashboard.py</code> first.</p></div>';
+    throw err;
+  })
+  .then(init);
+
+function init(d) {
+  D = d; rows = d.rows;
+  buildStrip(); buildFilters(); renderChecks(); apply(); buildDataView();
+  document.querySelectorAll('.nav button').forEach(b => b.onclick = () => {
+    document.querySelectorAll('.nav button').forEach(x => x.setAttribute('aria-current', x === b));
+    $('#view-overview').classList.toggle('hidden', b.dataset.view !== 'overview');
+    $('#view-data').classList.toggle('hidden', b.dataset.view !== 'data');
+    window.scrollTo(0, 0);
+  });
+}
+
+/* ---------- the cleanup story ---------- */
+function buildStrip() {
+  const c = D.counts, total = c.raw;
+  const parts = [{reason:'Kept', count:c.clean,
+                  detail:'Rows that survived every rule. Everything on this page is built from these.'}]
+                .concat(c.removed);
+
+  $('#strip').innerHTML = parts.map((p, i) =>
+    `<button class="${i ? 'cut' : 'kept'}" style="width:${100*p.count/total}%" data-i="${i}"
+      title="${esc(p.reason)}: ${p.count}" aria-label="${esc(p.reason)}: ${p.count} rows"></button>`).join('');
+
+  $('#stripkey').innerHTML = parts.map((p, i) =>
+    `<button class="key" data-i="${i}" aria-pressed="${i === 0}">
+      <i style="background:${i ? 'var(--sand)' : 'var(--teal)'}"></i>
+      ${esc(p.reason)} &middot; ${p.count}</button>`).join('');
+
+  const show = i => {
+    const p = parts[i];
+    $('#stripnote').innerHTML =
+      `<b>${esc(p.reason)} &mdash; ${p.count} row${p.count === 1 ? '' : 's'}.</b> ${esc(p.detail)}`;
+    document.querySelectorAll('.key').forEach(k => k.setAttribute('aria-pressed', +k.dataset.i === i));
+  };
+  document.querySelectorAll('#strip button, .key').forEach(b => {
+    b.onclick = () => show(+b.dataset.i);
+    b.onmouseenter = () => show(+b.dataset.i);
+  });
+  show(0);
+}
+
+/* ---------- filters ---------- */
+function buildFilters() {
+  const fill = (sel, key, label) => {
+    const vals = [...new Set(rows.map(r => r[key]).filter(Boolean))].sort();
+    $(sel).innerHTML = `<option value="">All ${label}</option>` +
+      vals.map(v => `<option>${esc(v)}</option>`).join('');
+    $(sel).onchange = apply;
+  };
+  fill('#f-dept', 'department', 'teams');
+  fill('#f-region', 'region', 'regions');
+  fill('#f-source', 'source', 'sources');
+  $('#reset').onclick = () => {
+    ['#f-dept', '#f-region', '#f-source'].forEach(s => $(s).value = '');
+    apply();
+  };
+}
+
+function apply() {
+  const dept = $('#f-dept').value, region = $('#f-region').value, source = $('#f-source').value;
+  filtered = rows.filter(r =>
+    (!dept || r.department === dept) && (!region || r.region === region) &&
+    (!source || r.source === source));
+  const active = [dept, region, source].filter(Boolean).length;
+  $('#filter-count').textContent = active
+    ? `${filtered.length} of ${rows.length} applications`
+    : `all ${rows.length} applications`;
+  renderKpis(); renderFunnel(); renderSources(); renderDepts(); renderStuck();
+}
+
+/* ---------- overview ---------- */
+function renderKpis() {
+  const hired = filtered.filter(r => r.stage === 'Hired');
+  const offers = filtered.filter(r => r.stage_rank >= 4).length;
+  const tth = hired.map(r => r.time_to_hire_days).filter(n => n != null).sort((a, b) => a - b);
+  const kpi = (n, l) => `<div class="kpi"><div class="n">${n}</div><div class="l">${l}</div></div>`;
+  $('#kpis').innerHTML =
+    kpi(filtered.length.toLocaleString(), 'Applications') +
+    kpi(new Set(filtered.filter(r => r.status === 'Open').map(r => r.req_id)).size, 'Open roles') +
+    kpi(tth.length ? tth[Math.floor(tth.length / 2)] + 'd' : '&mdash;', 'Median time to hire') +
+    kpi(offers ? Math.round(100 * hired.length / offers) + '%' : '&mdash;', 'Offer acceptance') +
+    kpi(filtered.filter(r => r.past_sla).length, 'Stuck candidates');
+}
+
+function renderFunnel() {
+  const counts = D.stage_order.map((s, i) => filtered.filter(r => r.stage_rank >= i).length);
+  const max = counts[0] || 1;
+  $('#funnel').innerHTML = D.stage_order.map((s, i) => {
+    const lost = i ? counts[i - 1] - counts[i] : 0;
+    const conv = i && counts[i - 1] ? Math.round(100 * counts[i] / counts[i - 1]) : null;
+    return `<button class="fn" aria-expanded="false">
+      <div class="fn-top"><b>${s}</b><span>${counts[i]}${conv !== null ? ` &middot; ${conv}% carried over` : ''}</span></div>
+      <div class="fn-track"><div class="fn-fill" style="width:${100 * counts[i] / max}%"></div></div>
+      ${i ? `<div class="fn-drop">${lost} candidate${lost === 1 ? '' : 's'} did not get past ${D.stage_order[i - 1]}.</div>` : ''}
+    </button>`;
+  }).join('');
+  document.querySelectorAll('.fn').forEach(f => f.onclick = () =>
+    f.setAttribute('aria-expanded', f.getAttribute('aria-expanded') !== 'true'));
+}
+
+function bars(el, items, fmt) {
+  const max = Math.max(...items.map(i => i.value), 1);
+  $(el).innerHTML = items.length ? items.map(x => `<div class="row">
+      <span>${esc(x.label)}</span>
+      <div class="track"><div class="fill" style="width:${Math.max(1.5, 100 * x.value / max)}%"></div></div>
+      <span class="val">${fmt(x)}</span></div>`).join('')
+    : '<p class="sub" style="margin:0">Nothing matches these filters.</p>';
+}
+
+function renderSources() {
+  const out = [...new Set(filtered.map(r => r.source))].map(s => {
+    const g = filtered.filter(r => r.source === s);
+    const h = g.filter(r => r.stage === 'Hired').length;
+    return {label: s, value: 100 * h / g.length, hires: h, apps: g.length};
+  }).sort((a, b) => b.value - a.value);
+  bars('#sources', out, x => `${x.value.toFixed(1)}% &middot; ${x.hires}/${x.apps}`);
+}
+
+function renderDepts() {
+  const out = [...new Set(filtered.map(r => r.department))].map(d => {
+    const t = filtered.filter(r => r.department === d && r.time_to_hire_days != null)
+      .map(r => r.time_to_hire_days).sort((a, b) => a - b);
+    return t.length ? {label: d, value: t[Math.floor(t.length / 2)], hires: t.length} : null;
+  }).filter(Boolean).sort((a, b) => a.value - b.value);
+  bars('#depts', out, x => `${x.value}d &middot; ${x.hires} hire${x.hires === 1 ? '' : 's'}`);
+}
+
+function renderStuck() {
+  const s = filtered.filter(r => r.past_sla)
+    .sort((a, b) => b.days_in_stage - a.days_in_stage).slice(0, 10);
+  $('#stuck').innerHTML =
+    `<thead><tr><th>Candidate</th><th>Role</th><th>Team</th><th>Stage</th>
+      <th>Recruiter</th><th>Idle</th><th>Target</th></tr></thead><tbody>` +
+    (s.length ? s.map(r => `<tr>
+      <td>${esc(r.candidate_name)}</td><td>${esc(r.title)}</td><td>${esc(r.department)}</td>
+      <td>${esc(r.stage)}</td><td class="mono">${esc(r.recruiter)}</td>
+      <td><span class="tag bad">${r.days_in_stage}d</span></td>
+      <td>${r.stage_sla_days ?? '&mdash;'}d</td></tr>`).join('')
+      : '<tr><td colspan="7" style="color:var(--mid)">Nobody is stuck in this slice.</td></tr>') +
+    '</tbody>';
+}
+
+function renderChecks() {
+  $('#checks').innerHTML = D.quality.map(q => `<div class="chk">
+      <span class="tag ${q.passed ? 'ok' : (q.severity === 'blocking' ? 'bad' : 'warn')}">
+        ${q.passed ? 'pass' : q.failing_rows + ' row' + (q.failing_rows === 1 ? '' : 's')}</span>
+      <span class="t">${esc(q.name)}<div class="d">${esc(q.passed ? q.why : q.action)}</div></span>
+    </div>`).join('');
+}
+
+/* ---------- data explorer ---------- */
+const CLEAN_COLS = [
+  ['candidate_name', 'Candidate'], ['title', 'Role'], ['department', 'Team'],
+  ['region', 'Region'], ['source', 'Source'], ['stage', 'Stage'],
+  ['recruiter', 'Recruiter'], ['applied_at', 'Applied'],
+  ['days_in_stage', 'Idle'], ['time_to_hire_days', 'Time to hire']
+];
+const RAW_COLS = [
+  ['candidate_id', 'ID'], ['candidate_name', 'Candidate'], ['email', 'Email'],
+  ['source', 'Source'], ['req_id', 'Job'], ['stage', 'Stage'],
+  ['applied_at', 'Applied'], ['last_activity_at', 'Last activity']
+];
+let dPage = 0, dSort = null, dAsc = true;
+
+function buildDataView() {
+  $('#d-mode').onchange = () => { dPage = 0; dSort = null; renderData(); };
+  $('#d-search').oninput = () => { dPage = 0; renderData(); };
+  $('#d-only').onchange = () => { dPage = 0; renderData(); };
+  $('#d-prev').onclick = () => { dPage--; renderData(); };
+  $('#d-next').onclick = () => { dPage++; renderData(); };
+  renderData();
+}
+
+function renderData() {
+  const raw = $('#d-mode').value === 'raw';
+  let set = raw ? D.raw_rows : D.rows;
+  const q = $('#d-search').value.trim().toLowerCase();
+  if (q) set = set.filter(r => Object.values(r).some(v =>
+    v != null && String(v).toLowerCase().includes(q)));
+  if (raw && $('#d-only').checked) set = set.filter(r => r.flags.length);
+  if (dSort) {
+    set = [...set].sort((a, b) => {
+      const x = a[dSort], y = b[dSort];
+      if (x == null) return 1;
+      if (y == null) return -1;
+      return (typeof x === 'number' && typeof y === 'number'
+        ? x - y : String(x).localeCompare(String(y))) * (dAsc ? 1 : -1);
+    });
+  }
+
+  const cols = raw ? RAW_COLS : CLEAN_COLS;
+  const perPage = 25;
+  const pages = Math.max(1, Math.ceil(set.length / perPage));
+  dPage = Math.min(Math.max(0, dPage), pages - 1);
+  const page = set.slice(dPage * perPage, dPage * perPage + perPage);
+
+  $('#d-only-wrap').classList.toggle('hidden', !raw);
+  $('#d-search').placeholder = raw ? 'Search name, email, job id...' : 'Search name, role, team...';
+  $('#d-count').textContent = `${set.length.toLocaleString()} rows`;
+  $('#d-legend').innerHTML = raw
+    ? `<p class="sub" style="margin:-6px 0 12px">Highlighted cells are the defects the pipeline
+       has to handle: ${Object.entries(D.defects).filter(([, n]) => n)
+      .map(([k, n]) => `${DEFECT_LABELS[k]} (${n})`).join(', ')}.</p>`
+    : `<p class="sub" style="margin:-6px 0 12px">The cleaned dataset. Every metric here was
+       calculated in the pipeline, not in this page.</p>`;
+
+  $('#d-table').innerHTML =
+    `<thead><tr>${cols.map(([k, l]) =>
+      `<th class="sortable" data-k="${k}">${l}${dSort === k ? (dAsc ? ' &uarr;' : ' &darr;') : ''}</th>`
+    ).join('')}${raw ? '<th>Problems</th>' : ''}</tr></thead><tbody>` +
+    page.map(r => {
+      const flagged = raw ? new Set(r.flags.map(f => FLAG_COL[f])) : new Set();
+      return '<tr>' + cols.map(([k]) => {
+        const v = r[k];
+        const empty = v === null || v === undefined || v === '';
+        return `<td class="${flagged.has(k) ? 'bad' : ''} ${empty ? 'null' : ''}">${
+          empty ? 'empty' : esc(v)}</td>`;
+      }).join('') + (raw ? `<td class="probs">${r.flags.length
+        ? r.flags.map(f => `<span class="tag warn">${DEFECT_LABELS[f]}</span>`).join(' ')
+        : '<span class="tag ok">clean</span>'}</td>` : '') + '</tr>';
+    }).join('') + '</tbody>';
+
+  document.querySelectorAll('#d-table th.sortable').forEach(th => th.onclick = () => {
+    const k = th.dataset.k;
+    dAsc = dSort === k ? !dAsc : true; dSort = k; renderData();
+  });
+
+  $('#d-page').textContent = `Page ${dPage + 1} of ${pages}`;
+  $('#d-prev').disabled = dPage === 0;
+  $('#d-next').disabled = dPage >= pages - 1;
+}
+</script>
+</body>
+</html>
