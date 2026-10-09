@@ -1,0 +1,255 @@
+{
+  "generated_at": "2026-10-08",
+  "summary": {
+    "applications": 405,
+    "open_requisitions": 18,
+    "active_candidates": 378,
+    "median_time_to_hire": 45,
+    "offer_acceptance": 65.9,
+    "past_sla": 35
+  },
+  "funnel": [
+    {
+      "stage": "Applied",
+      "reached": 405,
+      "conversion": null
+    },
+    {
+      "stage": "Recruiter Screen",
+      "reached": 240,
+      "conversion": 59.3
+    },
+    {
+      "stage": "Technical Screen",
+      "reached": 139,
+      "conversion": 57.9
+    },
+    {
+      "stage": "Onsite",
+      "reached": 83,
+      "conversion": 59.7
+    },
+    {
+      "stage": "Offer",
+      "reached": 41,
+      "conversion": 49.4
+    },
+    {
+      "stage": "Hired",
+      "reached": 27,
+      "conversion": 65.9
+    }
+  ],
+  "sources": [
+    {
+      "source": "Sourced",
+      "applications": 64,
+      "hires": 7,
+      "hire_rate": 10.9
+    },
+    {
+      "source": "Referral",
+      "applications": 76,
+      "hires": 7,
+      "hire_rate": 9.2
+    },
+    {
+      "source": "LinkedIn",
+      "applications": 58,
+      "hires": 4,
+      "hire_rate": 6.9
+    },
+    {
+      "source": "Careers Site",
+      "applications": 82,
+      "hires": 5,
+      "hire_rate": 6.1
+    },
+    {
+      "source": "University",
+      "applications": 55,
+      "hires": 3,
+      "hire_rate": 5.5
+    },
+    {
+      "source": "Agency",
+      "applications": 70,
+      "hires": 1,
+      "hire_rate": 1.4
+    }
+  ],
+  "time_to_hire_by_department": [
+    {
+      "department": "Product",
+      "hires": 8,
+      "median_days": 26
+    },
+    {
+      "department": "Deployment Strategy",
+      "hires": 8,
+      "median_days": 42
+    },
+    {
+      "department": "Security",
+      "hires": 7,
+      "median_days": 46
+    },
+    {
+      "department": "Engineering",
+      "hires": 4,
+      "median_days": 53
+    }
+  ],
+  "stuck_candidates": [
+    {
+      "candidate_id": "cand_90096",
+      "candidate_name": "Kofi Holm",
+      "title": "Forward Deployed Engineer",
+      "department": "Security",
+      "stage": "Applied",
+      "recruiter": "a.okafor",
+      "days_in_stage": 55,
+      "stage_sla_days": 4.0
+    },
+    {
+      "candidate_id": "cand_90079",
+      "candidate_name": "Priya Delgado",
+      "title": "Forward Deployed Engineer",
+      "department": "Security",
+      "stage": "Technical Screen",
+      "recruiter": "a.okafor",
+      "days_in_stage": 55,
+      "stage_sla_days": 7.0
+    },
+    {
+      "candidate_id": "cand_90144",
+      "candidate_name": "Priya Mensah",
+      "title": "Software Engineer",
+      "department": "Engineering",
+      "stage": "Applied",
+      "recruiter": "a.okafor",
+      "days_in_stage": 52,
+      "stage_sla_days": 4.0
+    },
+    {
+      "candidate_id": "cand_90206",
+      "candidate_name": "Nora Brandt",
+      "title": "Product Designer",
+      "department": "Security",
+      "stage": "Recruiter Screen",
+      "recruiter": "p.devi",
+      "days_in_stage": 51,
+      "stage_sla_days": 5.0
+    },
+    {
+      "candidate_id": "cand_90321",
+      "candidate_name": "Ken Novak",
+      "title": "Recruiting Coordinator",
+      "department": "Engineering",
+      "stage": "Technical Screen",
+      "recruiter": "l.chen",
+      "days_in_stage": 50,
+      "stage_sla_days": 7.0
+    },
+    {
+      "candidate_id": "cand_90352",
+      "candidate_name": "Kofi Ferreira",
+      "title": "Recruiting Coordinator",
+      "department": "Security",
+      "stage": "Applied",
+      "recruiter": "l.chen",
+      "days_in_stage": 48,
+      "stage_sla_days": 4.0
+    },
+    {
+      "candidate_id": "cand_90116",
+      "candidate_name": "Kofi Qureshi",
+      "title": "Software Engineer",
+      "department": "Deployment Strategy",
+      "stage": "Applied",
+      "recruiter": "m.strand",
+      "days_in_stage": 47,
+      "stage_sla_days": 4.0
+    },
+    {
+      "candidate_id": "cand_90410",
+      "candidate_name": "Nora Tan",
+      "title": "Data Engineer",
+      "department": "Product",
+      "stage": "Recruiter Screen",
+      "recruiter": "m.strand",
+      "days_in_stage": 45,
+      "stage_sla_days": 5.0
+    },
+    {
+      "candidate_id": "cand_90093",
+      "candidate_name": "Vera Holm",
+      "title": "Product Designer",
+      "department": "Engineering",
+      "stage": "Onsite",
+      "recruiter": "m.strand",
+      "days_in_stage": 44,
+      "stage_sla_days": 9.0
+    },
+    {
+      "candidate_id": "cand_90152",
+      "candidate_name": "Clara Haddad",
+      "title": "Forward Deployed Engineer",
+      "department": "Product",
+      "stage": "Recruiter Screen",
+      "recruiter": "m.strand",
+      "days_in_stage": 43,
+      "stage_sla_days": 5.0
+    }
+  ],
+  "quality": [
+    {
+      "name": "email is present",
+      "severity": "warning",
+      "passed": false,
+      "failing_rows": 9,
+      "why": "Coordinators need a way to contact the candidate.",
+      "action": "Make email required on the Lever application form. Until then these go to a manual worklist."
+    },
+    {
+      "name": "one row per candidate per requisition",
+      "severity": "blocking",
+      "passed": true,
+      "failing_rows": 0,
+      "why": "Duplicate applications double-count the funnel.",
+      "action": "Handled by the deduplication step in pipeline.py."
+    },
+    {
+      "name": "req_id exists in Workday",
+      "severity": "blocking",
+      "passed": true,
+      "failing_rows": 0,
+      "why": "An application against a missing requisition has no department or hiring manager.",
+      "action": "Rejected rows are written to rejected_rows.csv for Recruiting to reassign."
+    },
+    {
+      "name": "source is a known channel",
+      "severity": "blocking",
+      "passed": true,
+      "failing_rows": 0,
+      "why": "Attribution reporting only works if the channel names agree.",
+      "action": "Normalised in the pipeline. Worth fixing the ATS picklist too."
+    },
+    {
+      "name": "applied_at is not in the future",
+      "severity": "blocking",
+      "passed": true,
+      "failing_rows": 0,
+      "why": "Future dates break any report grouped by month.",
+      "action": "Rejected during cleaning and reported back to whoever owns the integration."
+    },
+    {
+      "name": "offer is within the approved band",
+      "severity": "warning",
+      "passed": false,
+      "failing_rows": 1,
+      "why": "Offers outside the requisition band need Finance sign-off.",
+      "action": "Not always a mistake - exceptions get approved. Flagged for review."
+    }
+  ]
+}

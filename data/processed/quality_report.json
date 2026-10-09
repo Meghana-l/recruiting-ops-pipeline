@@ -1,0 +1,50 @@
+[
+  {
+    "name": "email is present",
+    "severity": "warning",
+    "passed": false,
+    "failing_rows": 9,
+    "why": "Coordinators need a way to contact the candidate.",
+    "action": "Make email required on the Lever application form. Until then these go to a manual worklist."
+  },
+  {
+    "name": "one row per candidate per requisition",
+    "severity": "blocking",
+    "passed": true,
+    "failing_rows": 0,
+    "why": "Duplicate applications double-count the funnel.",
+    "action": "Handled by the deduplication step in pipeline.py."
+  },
+  {
+    "name": "req_id exists in Workday",
+    "severity": "blocking",
+    "passed": true,
+    "failing_rows": 0,
+    "why": "An application against a missing requisition has no department or hiring manager.",
+    "action": "Rejected rows are written to rejected_rows.csv for Recruiting to reassign."
+  },
+  {
+    "name": "source is a known channel",
+    "severity": "blocking",
+    "passed": true,
+    "failing_rows": 0,
+    "why": "Attribution reporting only works if the channel names agree.",
+    "action": "Normalised in the pipeline. Worth fixing the ATS picklist too."
+  },
+  {
+    "name": "applied_at is not in the future",
+    "severity": "blocking",
+    "passed": true,
+    "failing_rows": 0,
+    "why": "Future dates break any report grouped by month.",
+    "action": "Rejected during cleaning and reported back to whoever owns the integration."
+  },
+  {
+    "name": "offer is within the approved band",
+    "severity": "warning",
+    "passed": false,
+    "failing_rows": 1,
+    "why": "Offers outside the requisition band need Finance sign-off.",
+    "action": "Not always a mistake - exceptions get approved. Flagged for review."
+  }
+]

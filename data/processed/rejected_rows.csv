@@ -1,0 +1,10 @@
+candidate_id,candidate_name,email,source,req_id,stage,recruiter,applied_at,last_activity_at,offer_amount,rejected_reason
+cand_90176,Amara Vance,amara.vance@postbox.io,Careers Site,REQ-7773,Recruiter Screen,p.devi,2026-09-09,2026-09-19,,req_id not found in Workday
+cand_90131,Nora Nair,nora.nair@gridmail.com,Agency,REQ-7773,Hired,l.chen,2026-05-20,2026-07-12,160000,req_id not found in Workday
+cand_90285,Jonas Watanabe,jonas.watanabe@gridmail.com,Agency,REQ-7777,Applied,j.rivera,2026-06-14,2026-09-27,,req_id not found in Workday
+cand_90286,Tobias Tan,tobias.tan@mailbox.com,University,REQ-7786,Recruiter Screen,p.devi,2026-09-14,2026-10-06,,req_id not found in Workday
+cand_90010,Ife Demir,ife.demir@gridmail.com,Referral,REQ-7783,Applied,l.chen,2026-07-13,2026-10-04,,req_id not found in Workday
+cand_90210,Pablo Sorensen,pablo.sorensen@postbox.io,University,REQ-7783,Applied,j.rivera,2026-10-04,2026-10-08,,req_id not found in Workday
+cand_90414,Noah Brandt,noah.brandt@mailbox.com,University,REQ-7725,Hired,p.devi,2026-08-23,2026-10-08,130000,req_id not found in Workday
+cand_90062,Clara Sorensen,clara.sorensen@mailbox.com,Agency,REQ-7768,Hired,p.devi,2026-08-05,2026-09-24,140000,req_id not found in Workday
+cand_90179,Priya Qureshi,priya.qureshi@mailbox.com,Careers Site,REQ-7722,Technical Screen,l.chen,2026-08-20,2026-08-30,,req_id not found in Workday
